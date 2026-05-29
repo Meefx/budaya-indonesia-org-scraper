@@ -1,0 +1,1898 @@
+
+<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="../assets/"
+    data-template="vertical-menu-template-free">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Hasil Pencarian Entri &#187; Budaya Indonesia
+</title>
+
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="95G0a4gWmGZ9YS7PTUZ8WAm1mOAtN6e5nL3eb6Qs">
+    <meta name="search-uri" content="https://budaya-indonesia.org/cari?q=%23q">
+    <meta name="search-prov-uri" content="https://budaya-indonesia.org/cari?provinsi=%3Aid">
+    <meta name="login" content="https://budaya-indonesia.org/pengguna/masuk">
+    <meta name="dashboard" content="https://budaya-indonesia.org/admin/dashboard">
+    <meta name="search-suggest-url" content="https://budaya-indonesia.org/api/search-suggest">
+    <meta name="total" content="https://budaya-indonesia.org/totalProvince?id=%23id">
+    <meta name="osan-entry-label" content="">
+
+        <meta name="search-full-url" content="https://budaya-indonesia.org/cari?q=_q&amp;gambar=_gambar&amp;audio=_audio&amp;video=_video&amp;pdf=_pdf&amp;provinsi=_provinsi&amp;element=_element&amp;page=_page">
+    <meta name="api-search-url" content="https://budaya-indonesia.org/api/search-pagination?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page">
+    <meta name="current-query" content="">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://budaya-indonesia.org/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://budaya-indonesia.org/vendor/fonts/boxicons.css" />
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="https://budaya-indonesia.org/css/newpdbi/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="https://budaya-indonesia.org/css/newpdbi/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="https://budaya-indonesia.org/css/newpdbi/demo.css" />
+    <link rel="stylesheet" href="https://budaya-indonesia.org/css/newpdbi/custom.css" />
+    <link href="/css/custom-spacing.css" rel="stylesheet">
+    <link href="/css/global.css" rel="stylesheet">
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="https://budaya-indonesia.org/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+
+    <!-- Page CSS -->
+
+    <!-- Helpers -->
+    <script src="https://budaya-indonesia.org/assets/vendor/js/helpers.js"></script>
+
+    <script src="https://budaya-indonesia.org/assets/vendor/js/config.js"></script>
+
+    <style>
+    .annotation-container[data-osan-show],
+        .annotation-container[data-osan-hide] {
+            padding: 0 !important;
+            line-height: 0 !important;
+            font-size: 0 !important;
+        }
+
+        .annotation-container[data-osan-show] svg,
+        .annotation-container[data-osan-hide] svg {
+            display: block !important;
+        }
+
+        .annotation-container[data-osan-show] image,
+        .annotation-container[data-osan-hide] image {
+            display: block !important;
+        }
+    </style>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    var jQueryz = jQuery.noConflict();
+</script>
+<script src="https://budaya-indonesia.org/js/devexpress/dx.all.js"></script>
+<script src="https://budaya-indonesia.org/js/devexpress/indonesia.js"></script>    
+
+<style>
+    @media (max-width: 1440) {
+        .filter-right {
+            flex-direction: column;
+            align-items: stretch;
+        }
+
+        .file-filters {
+            order: 1;
+        }
+
+        .select-filters {
+            order: 2;
+        }
+    }
+
+    .osan-summary-container {
+        margin-bottom: 2rem;
+    }
+
+    .osan-content {
+        min-height: 96px;
+        padding: 1.25rem;
+        /* white-space: pre-wrap; */
+    }
+    
+    .summary {
+        white-space: pre-wrap;
+    }
+
+    .osan-status {
+        color: var(--cs-primary);
+        font-size: 0.875rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .osan-skeleton {
+        display: grid;
+        gap: 0.75rem;
+    }
+
+    .osan-skeleton-line {
+        width: 100%;
+        height: 1rem;
+        border-radius: 999px;
+        background: linear-gradient(90deg, #eef3f1 25%, #dce8e4 37%, #eef3f1 63%);
+        background-size: 400% 100%;
+        animation: osanSkeletonLoading 1.4s ease infinite;
+    }
+
+    .osan-skeleton-line:nth-child(2) {
+        width: 92%;
+    }
+
+    .osan-skeleton-line:nth-child(3) {
+        width: 78%;
+    }
+
+    @keyframes osanSkeletonLoading {
+        0% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0 50%;
+        }
+    }
+
+</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light shadow-sm sm-d-none fixed-top" style="background-color: white; height:120px;">
+  <div class="container-xxl position-relative">
+
+    <!-- Centered Brand -->
+    <div class="position-absolute start-50 translate-middle-x">
+      <a class="navbar-brand fw-bold" href="/">
+        <img height="96" src="https://budaya-indonesia.org/img/logotext_beta.png" alt="logo">
+      </a>
+    </div>
+        <!-- Right Side Content -->
+    <div class="ms-auto d-flex gap-2">
+      <form id="searchForm" class="d-flex align-items-center mb-0 position-relative d-none" action="https://budaya-indonesia.org/cari" method="GET" style="top: -3px;">
+        <div class="position-relative w-100">
+          <input class="search-query form-control bg-white" type="search" name="q" id="mQ"
+              value="" aria-label="Cari"
+              placeholder="Cari" onfocus="this.placeholder = ''"
+              onblur="this.placeholder = 'Cari'" 
+              autocomplete="off" 
+              style="padding-top:8px; padding-bottom:8px; padding-left: 35px; border-radius: 12px;">
+          <i class="bx bx-search position-absolute start-0 me-2" style="margin-left:12px; top: 25%;"></i>
+          <div class="dropdown w-100" id="search-suggest">
+            <ul class="dropdown-menu dropdown-search-suggest"></ul>
+          </div>
+        </div>
+      </form>
+
+      <a href="javascript:void(0);" id="searchToggle" style="margin-top:5px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <path d="M28 28L20 20M22.6667 13.3333C22.6667 18.488 18.488 22.6667 13.3333 22.6667C8.17868 22.6667 4 18.488 4 13.3333C4 8.17868 8.17868 4 13.3333 4C18.488 4 22.6667 8.17868 22.6667 13.3333Z" stroke="#637083" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      
+      
+      <!-- Auth Dropdown Trigger (Hamburger or Text) -->
+      <div class="dropdown ms-auto">
+        <button class="navbar-toggler d-flex align-items-center gap-2" style="margin-top:5px;" type="button" id="authDropdown"
+          data-bs-toggle="dropdown" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <path d="M5.33325 8H26.6666M5.33325 16H26.6666M5.33325 24H26.6666" stroke="#637083" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+
+        <!-- Dropdown Menu -->
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="authDropdown" style="
+            border-radius: 12px;
+            min-width: 250px;
+            padding: 16px;">
+                      <li class="mb-2">
+              <a class="btn w-100 btn-outline-dark rounded-pill" href="https://budaya-indonesia.org/pengguna/daftar">Daftar</a>
+            </li>
+
+            <li>
+              <a class="btn w-100 btn-primary btn-primary-black rounded-pill" href="https://budaya-indonesia.org/pengguna/masuk">Masuk</a>
+            </li>
+                  </ul>
+      </div>
+      
+      <a href="https://budaya-indonesia.ai" target="_blank">
+        <div class="d-flex align-items-center gap-2 text-black border rounded-3" style="padding: 4px 8px; border: 1.5px solid #637083 !important; border-radius: 10px !important;">
+          <img src="https://budaya-indonesia.org/img/osan.png" alt="" style="height: 32px;">
+          Obrol Sandi
+        </div>
+      </a>
+    </div>
+      </div>
+</nav>
+
+
+<nav class="navbar navbar-expand-md navbar-light shadow-sm mobile fixed-top" style="background-color: white;">
+    <div class="container-xxl">
+        <!-- Logo -->
+        <a class="navbar-brand" href="/">
+            <img height="50" src="https://budaya-indonesia.org/img/logotext_beta.png" alt="logo">
+        </a>
+
+        <div class="d-flex align-items-center gap-2">
+            
+                            <button class="navbar-toggler d-flex align-items-center gap-2" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarAuth" 
+                    aria-controls="navbarAuth" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" 
+                        viewBox="0 0 32 32" fill="none">
+                        <path d="M5.33331 8H26.6666M5.33331 16H26.6666M5.33331 24H26.6666" 
+                              stroke="#8F969E" stroke-width="2" stroke-linecap="round" 
+                              stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            
+            
+            <a href="https://budaya-indonesia.ai" target="_blank">
+                <img src="https://budaya-indonesia.org/img/osan.png" alt="OSAN" style="height: 32px;">
+            </a>
+        </div>
+
+        
+                    <div class="collapse navbar-collapse" id="navbarAuth">
+                <div class="ms-auto d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2 mt-3 mt-md-0">
+                    <a class="btn w-100 btn-outline-dark rounded-pill" href="https://budaya-indonesia.org/pengguna/daftar">Daftar</a>
+                    <a class="btn w-100 btn-primary btn-primary-black rounded-pill" href="https://budaya-indonesia.org/pengguna/masuk">Masuk</a>
+                </div>
+            </div>
+        
+    </div>
+</nav>
+
+<div class="mobile" style="margin-top: 100;"></div>
+<div class="sm-d-none" style="margin-top: 97px;"></div>
+
+<div class="container-xxl mobile my-4">
+    <form id="searchFormMobile" class="d-flex mb-0 position-relative" action="https://budaya-indonesia.org/cari" method="GET">
+        <div class="position-relative w-100">
+            <input class="search-query-mobile form-control rounded-mid py-3" type="search" name="q" id="dQ"
+                value="" aria-label="Cari Budaya"
+                placeholder="Cari Budaya" onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Cari Budaya'" 
+                autocomplete="off" style="padding-left: 35px;"
+                >
+            <i class="bx bx-search position-absolute start-0 ms-3 me-3" style="top: 30%;"></i>
+            <div class="dropdown w-100" id="search-suggest">
+                <ul class="dropdown-menu dropdown-search-suggest-mobile"></ul>
+            </div>
+        </div>
+    </form>
+</div>
+        
+            <style>
+    #load-bg {
+        position: fixed;
+        z-index: 999999;
+        background: rgba(0, 0, 0, 0.3) url('https://budaya-indonesia.org/img/ajax_loading.gif') center center no-repeat;
+        -webkit-background-size: 50px 50px;
+        background-size: 50px 50px;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        /*display: none;*/
+        /*background-image: url('https://budaya-indonesia.org/img/ajax_loading.gif') center center no-repeat;
+        background-color: rgba(0, 0, 0, 0.3);*//
+    }
+    #load-img {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50px;
+        height: auto;
+    }
+</style>
+<div id="load-bg">
+    <!--img src="https://budaya-indonesia.org/img/ajax_loading.gif" alt="Memuat" id="load-img"-->
+</div>
+
+    <div class="container-xxl py-0 py-md-6">
+        <nav aria-label="breadcrumb" class="my-4">
+            <ol class="breadcrumb d-flex overflow-auto flex-nowrap">
+                <li class="breadcrumb-item flex-shrink-0">
+                    <a href="https://budaya-indonesia.org" class="text-primary mb-0">
+                        <svg style="margin-bottom: 2px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                            <path d="M2 8L3.33333 6.66667M3.33333 6.66667L8 2L12.6667 6.66667M3.33333 6.66667V13.3333C3.33333 13.7015 3.63181 14 4 14H6M12.6667 6.66667L14 8M12.6667 6.66667V13.3333C12.6667 13.7015 12.3682 14 12 14H10M6 14C6.36819 14 6.66667 13.7015 6.66667 13.3333V10.6667C6.66667 10.2985 6.96514 10 7.33333 10H8.66667C9.03486 10 9.33333 10.2985 9.33333 10.6667V13.3333C9.33333 13.7015 9.63181 14 10 14M6 14H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Beranda</a>
+                    </li>
+                                <li class="breadcrumb-item active fw-bold text-capitalize text-truncate-1">Cari Budaya</li>
+                            </ol>
+        </nav>
+
+        <div class="d-flex justify-content-between align-items-center">
+            <h5 class="fw-bold ff-inter text-capitalize mb-0"></h5>
+            <div class="text-secondary">58.670 entri ditemukan</div>
+        </div>
+
+        <hr class="w-100 m-0" style="border: 1px solid var(--cs-primary)">
+
+        <div class="mobile">
+            <div class="card" style="margin-top:16px;margin-bottom:16px;border-radius:20px;box-shadow: 1px 0px 10px 0px rgba(87, 171, 146, 0.00), 1px 0px 9px 0px rgba(87, 171, 146, 0.02), 0px 0px 8px 0px rgba(87, 171, 146, 0.08), 0px 0px 6px 0px rgba(87, 171, 146, 0.13), 0px 0px 3px 0px rgba(87, 171, 146, 0.15);">
+                <div class="card-body" style="padding: 12px;">
+                    <h6 class="fw-bold ff-inter mb-4">Entri per provinsi</h6>
+        
+                    <div class="accordion my-4" id="accordionOne">
+                        <div class="border border-primary accordion-item br-16" style="overflow: hidden;">
+                            <div class="accordion-header" id="headingOne">
+                                <button class="accordion-button border-primary br-16 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Provinsi
+                                </button>
+                            </div>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionOne">
+                                <div class="accordion-body prov-container">
+                                                                                                                                                                                        <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=21">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Aceh</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    1.891
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=1">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Bali</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    3.680
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=3">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Banten</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    923
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=4">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Bengkulu</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    615
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=6">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">DKI Jakarta</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    2.286
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=5">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Daerah Istimewa Yogyakarta</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    1.851
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=7">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Gorontalo</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    396
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=9">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Jambi</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    748
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=10">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Jawa Barat</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    8.402
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=11">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Jawa Tengah</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    7.629
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=12">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Jawa Timur</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    4.522
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=13">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Kalimantan Barat</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    1.073
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=14">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Kalimantan Selatan</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    1.699
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=15">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Kalimantan Tengah</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    786
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=16">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Kalimantan Timur</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    1.019
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=35">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Kalimantan Utara</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    188
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=2">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Kepulauan Bangka Belitung</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    810
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=17">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Kepulauan Riau</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    431
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=18">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Lampung</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    720
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=19">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Maluku</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    1.062
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=20">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Maluku Utara</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    351
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=22">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Nusa Tenggara Barat</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    1.074
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=23">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Nusa Tenggara Timur</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    947
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=24">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Papua</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    1.007
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=25">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Papua Barat</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    233
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=38">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Papua Barat Daya</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=39">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Papua Pegunungan</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=37">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Papua Selatan</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=36">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Papua Tengah</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    0
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=26">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Riau</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    868
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=27">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Sulawesi Barat</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    376
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=28">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Sulawesi Selatan</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    2.239
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=29">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Sulawesi Tengah</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    481
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=30">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Sulawesi Tenggara</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    561
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=31">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Sulawesi Utara</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    1.863
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=32">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Sumatera Barat</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    3.357
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=33">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Sumatera Selatan</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    1.625
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                                                            <a href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=_page&amp;provinsi=34">
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="text-black">Sumatera Utara</div>
+                                            <div>
+                                                <span class="badge rounded-pill bg-primary text-dark">
+                                                    2.840
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4"> 
+                        <select class="form-select rounded-mid py-3"  name="mElement" id="mElement">
+                            <option value="">Semua Elemen Budaya</option>
+                                                            <option class="grey" value="1" >Alat Musik</option>
+                                                            <option class="grey" value="2" >Cerita Rakyat</option>
+                                                            <option class="grey" value="3" >Makanan Minuman</option>
+                                                            <option class="grey" value="4" >Motif Kain</option>
+                                                            <option class="grey" value="5" >Musik dan Lagu</option>
+                                                            <option class="grey" value="6" >Naskah Kuno dan Prasasti</option>
+                                                            <option class="grey" value="7" >Ornamen</option>
+                                                            <option class="grey" value="8" >Pakaian Tradisional</option>
+                                                            <option class="grey" value="15" >Pengobatan dan Kesehatan</option>
+                                                            <option class="grey" value="9" >Permainan Tradisional</option>
+                                                            <option class="grey" value="10" >Produk Arsitektur</option>
+                                                            <option class="grey" value="11" >Ritual</option>
+                                                            <option class="grey" value="12" >Seni Pertunjukan</option>
+                                                            <option class="grey" value="13" >Senjata dan Alat Perang</option>
+                                                            <option class="grey" value="14" >Tarian</option>
+                                                    </select>
+                    </div>
+                    <div class="mb-4">
+                        <select name="mProvinsi" id="mProvinsi" class="form-select rounded-mid py-3">
+                            <option class="grey" value="">Semua Provinsi</option>
+                                                            <option class="grey" value="21" >Aceh</option>
+                                                            <option class="grey" value="1" >Bali</option>
+                                                            <option class="grey" value="3" >Banten</option>
+                                                            <option class="grey" value="4" >Bengkulu</option>
+                                                            <option class="grey" value="6" >DKI Jakarta</option>
+                                                            <option class="grey" value="5" >Daerah Istimewa Yogyakarta</option>
+                                                            <option class="grey" value="7" >Gorontalo</option>
+                                                            <option class="grey" value="9" >Jambi</option>
+                                                            <option class="grey" value="10" >Jawa Barat</option>
+                                                            <option class="grey" value="11" >Jawa Tengah</option>
+                                                            <option class="grey" value="12" >Jawa Timur</option>
+                                                            <option class="grey" value="13" >Kalimantan Barat</option>
+                                                            <option class="grey" value="14" >Kalimantan Selatan</option>
+                                                            <option class="grey" value="15" >Kalimantan Tengah</option>
+                                                            <option class="grey" value="16" >Kalimantan Timur</option>
+                                                            <option class="grey" value="35" >Kalimantan Utara</option>
+                                                            <option class="grey" value="2" >Kepulauan Bangka Belitung</option>
+                                                            <option class="grey" value="17" >Kepulauan Riau</option>
+                                                            <option class="grey" value="18" >Lampung</option>
+                                                            <option class="grey" value="19" >Maluku</option>
+                                                            <option class="grey" value="20" >Maluku Utara</option>
+                                                            <option class="grey" value="22" >Nusa Tenggara Barat</option>
+                                                            <option class="grey" value="23" >Nusa Tenggara Timur</option>
+                                                            <option class="grey" value="24" >Papua</option>
+                                                            <option class="grey" value="25" >Papua Barat</option>
+                                                            <option class="grey" value="38" >Papua Barat Daya</option>
+                                                            <option class="grey" value="39" >Papua Pegunungan</option>
+                                                            <option class="grey" value="37" >Papua Selatan</option>
+                                                            <option class="grey" value="36" >Papua Tengah</option>
+                                                            <option class="grey" value="26" >Riau</option>
+                                                            <option class="grey" value="27" >Sulawesi Barat</option>
+                                                            <option class="grey" value="28" >Sulawesi Selatan</option>
+                                                            <option class="grey" value="29" >Sulawesi Tengah</option>
+                                                            <option class="grey" value="30" >Sulawesi Tenggara</option>
+                                                            <option class="grey" value="31" >Sulawesi Utara</option>
+                                                            <option class="grey" value="32" >Sumatera Barat</option>
+                                                            <option class="grey" value="33" >Sumatera Selatan</option>
+                                                            <option class="grey" value="34" >Sumatera Utara</option>
+                                                    </select>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-4 col-6">
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" id="mGambar" name="mGambar" >
+                                <label class="form-check-label" for="mGambar">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M3.33301 13.3333L7.1545 9.51184C7.80537 8.86097 8.86065 8.86097 9.51152 9.51184L13.333 13.3333M11.6663 11.6667L12.9878 10.3452C13.6387 9.6943 14.694 9.6943 15.3449 10.3452L16.6663 11.6667M11.6663 6.66666H11.6747M4.99967 16.6667H14.9997C15.9201 16.6667 16.6663 15.9205 16.6663 15V4.99999C16.6663 4.07952 15.9201 3.33333 14.9997 3.33333H4.99967C4.0792 3.33333 3.33301 4.07952 3.33301 4.99999V15C3.33301 15.9205 4.0792 16.6667 4.99967 16.6667Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Gambar 
+                                </label>
+                            </div>
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" id="mVideo" name="mVideo" >
+                                <label class="form-check-label" for="mVideo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M5.83334 3.33333V16.6667M14.1667 3.33333V16.6667M2.5 6.66666H5.83333M14.1667 6.66666H17.5M2.5 9.99999H17.5M2.5 13.3333H5.83333M14.1667 13.3333H17.5M3.33333 16.6667H16.6667C17.1269 16.6667 17.5 16.2936 17.5 15.8333V4.16666C17.5 3.70642 17.1269 3.33333 16.6667 3.33333H3.33333C2.8731 3.33333 2.5 3.70642 2.5 4.16666V15.8333C2.5 16.2936 2.8731 16.6667 3.33333 16.6667Z" stroke="black" stroke-width="2"/>
+                                    </svg>
+                                    Video 
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-6">
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" id="mAudio" name="mAudio" >
+                                <label class="form-check-label" for="mAudio">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M7.5 15.8333V5L17.5 2.5V13.3333M7.5 15.8333C7.5 16.7538 6.38071 17.5 5 17.5C3.61929 17.5 2.5 16.7538 2.5 15.8333C2.5 14.9129 3.61929 14.1667 5 14.1667C6.38071 14.1667 7.5 14.9129 7.5 15.8333ZM17.5 13.3333C17.5 14.2538 16.3807 15 15 15C13.6193 15 12.5 14.2538 12.5 13.3333C12.5 12.4129 13.6193 11.6667 15 11.6667C16.3807 11.6667 17.5 12.4129 17.5 13.3333ZM7.5 8.33333L17.5 5.83333" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Audio 
+                                </label>
+                            </div>
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" id="mPdf" name="mPdf" >
+                                <label class="form-check-label" for="mPdf">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M7.50033 10H12.5003M7.50033 13.3333H12.5003M14.167 17.5H5.83366C4.91318 17.5 4.16699 16.7538 4.16699 15.8333V4.16667C4.16699 3.24619 4.91318 2.5 5.83366 2.5H10.4885C10.7095 2.5 10.9215 2.5878 11.0777 2.74408L15.5896 7.25592C15.7459 7.4122 15.8337 7.62416 15.8337 7.84518V15.8333C15.8337 16.7538 15.0875 17.5 14.167 17.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    PDF 
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <a href="javascript:void(0);" class="rounded-pill py-3 btn btn-primary btn-primary-black w-100" id="mTetapkan">Cari</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="desktop d-flex justify-content-between align-items-center mt-6 flex-wrap sm-d-none">
+            <h6 class="fw-bold ff-inter">Entri per provinsi</h6>
+            <div class="d-flex align-items-center gap-3 filter-right flex-wrap">    
+                <div class="file-filters d-flex flex-wrap gap-3">
+                    <!-- Gambar, Video, Audio, PDF checkboxes -->
+                    <div class="form-check mb-0">
+                        <input class="form-check-input" type="checkbox" id="dGambar" name="dGambar" >
+                        <label class="form-check-label" for="dGambar">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M3.33301 13.3333L7.1545 9.51184C7.80537 8.86097 8.86065 8.86097 9.51152 9.51184L13.333 13.3333M11.6663 11.6667L12.9878 10.3452C13.6387 9.6943 14.694 9.6943 15.3449 10.3452L16.6663 11.6667M11.6663 6.66666H11.6747M4.99967 16.6667H14.9997C15.9201 16.6667 16.6663 15.9205 16.6663 15V4.99999C16.6663 4.07952 15.9201 3.33333 14.9997 3.33333H4.99967C4.0792 3.33333 3.33301 4.07952 3.33301 4.99999V15C3.33301 15.9205 4.0792 16.6667 4.99967 16.6667Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Gambar 
+                        </label>
+                    </div>
+                    <div class="form-check mb-0">
+                        <input class="form-check-input" type="checkbox" id="dVideo" name="dVideo" >
+                        <label class="form-check-label" for="dVideo">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M5.83334 3.33333V16.6667M14.1667 3.33333V16.6667M2.5 6.66666H5.83333M14.1667 6.66666H17.5M2.5 9.99999H17.5M2.5 13.3333H5.83333M14.1667 13.3333H17.5M3.33333 16.6667H16.6667C17.1269 16.6667 17.5 16.2936 17.5 15.8333V4.16666C17.5 3.70642 17.1269 3.33333 16.6667 3.33333H3.33333C2.8731 3.33333 2.5 3.70642 2.5 4.16666V15.8333C2.5 16.2936 2.8731 16.6667 3.33333 16.6667Z" stroke="black" stroke-width="2"/>
+                            </svg>
+                            Video 
+                        </label>
+                    </div>
+                    <div class="form-check mb-0">
+                        <input class="form-check-input" type="checkbox" id="dAudio" name="dAudio" >
+                        <label class="form-check-label" for="dAudio">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.5 15.8333V5L17.5 2.5V13.3333M7.5 15.8333C7.5 16.7538 6.38071 17.5 5 17.5C3.61929 17.5 2.5 16.7538 2.5 15.8333C2.5 14.9129 3.61929 14.1667 5 14.1667C6.38071 14.1667 7.5 14.9129 7.5 15.8333ZM17.5 13.3333C17.5 14.2538 16.3807 15 15 15C13.6193 15 12.5 14.2538 12.5 13.3333C12.5 12.4129 13.6193 11.6667 15 11.6667C16.3807 11.6667 17.5 12.4129 17.5 13.3333ZM7.5 8.33333L17.5 5.83333" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Audio 
+                        </label>
+                    </div>
+                    <div class="form-check mb-0">
+                        <input class="form-check-input" type="checkbox" id="dPdf" name="dPdf" >
+                        <label class="form-check-label" for="dPdf">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7.50033 10H12.5003M7.50033 13.3333H12.5003M14.167 17.5H5.83366C4.91318 17.5 4.16699 16.7538 4.16699 15.8333V4.16667C4.16699 3.24619 4.91318 2.5 5.83366 2.5H10.4885C10.7095 2.5 10.9215 2.5878 11.0777 2.74408L15.5896 7.25592C15.7459 7.4122 15.8337 7.62416 15.8337 7.84518V15.8333C15.8337 16.7538 15.0875 17.5 14.167 17.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            PDF 
+                        </label>
+                    </div>
+                </div>
+
+                <div class="select-filters d-flex flex-wrap gap-3">
+                    <!-- dElement and dProvinsi selects -->
+                    <div class="mb-0">
+                        <select class="form-select rounded-mid py-3"  name="dElement" id="dElement">
+                            <option value="">Semua Elemen Budaya</option>
+                                                            <option class="grey" value="1" >Alat Musik</option>
+                                                            <option class="grey" value="2" >Cerita Rakyat</option>
+                                                            <option class="grey" value="3" >Makanan Minuman</option>
+                                                            <option class="grey" value="4" >Motif Kain</option>
+                                                            <option class="grey" value="5" >Musik dan Lagu</option>
+                                                            <option class="grey" value="6" >Naskah Kuno dan Prasasti</option>
+                                                            <option class="grey" value="7" >Ornamen</option>
+                                                            <option class="grey" value="8" >Pakaian Tradisional</option>
+                                                            <option class="grey" value="15" >Pengobatan dan Kesehatan</option>
+                                                            <option class="grey" value="9" >Permainan Tradisional</option>
+                                                            <option class="grey" value="10" >Produk Arsitektur</option>
+                                                            <option class="grey" value="11" >Ritual</option>
+                                                            <option class="grey" value="12" >Seni Pertunjukan</option>
+                                                            <option class="grey" value="13" >Senjata dan Alat Perang</option>
+                                                            <option class="grey" value="14" >Tarian</option>
+                                                    </select>
+                    </div>
+                    <div class="mb-0">
+                        <select name="dProvinsi" id="dProvinsi" class="form-select rounded-mid py-3">
+                            <option class="grey" value="">Semua Provinsi</option>
+                                                            <option class="grey" value="21" >Aceh</option>
+                                                            <option class="grey" value="1" >Bali</option>
+                                                            <option class="grey" value="3" >Banten</option>
+                                                            <option class="grey" value="4" >Bengkulu</option>
+                                                            <option class="grey" value="6" >DKI Jakarta</option>
+                                                            <option class="grey" value="5" >Daerah Istimewa Yogyakarta</option>
+                                                            <option class="grey" value="7" >Gorontalo</option>
+                                                            <option class="grey" value="9" >Jambi</option>
+                                                            <option class="grey" value="10" >Jawa Barat</option>
+                                                            <option class="grey" value="11" >Jawa Tengah</option>
+                                                            <option class="grey" value="12" >Jawa Timur</option>
+                                                            <option class="grey" value="13" >Kalimantan Barat</option>
+                                                            <option class="grey" value="14" >Kalimantan Selatan</option>
+                                                            <option class="grey" value="15" >Kalimantan Tengah</option>
+                                                            <option class="grey" value="16" >Kalimantan Timur</option>
+                                                            <option class="grey" value="35" >Kalimantan Utara</option>
+                                                            <option class="grey" value="2" >Kepulauan Bangka Belitung</option>
+                                                            <option class="grey" value="17" >Kepulauan Riau</option>
+                                                            <option class="grey" value="18" >Lampung</option>
+                                                            <option class="grey" value="19" >Maluku</option>
+                                                            <option class="grey" value="20" >Maluku Utara</option>
+                                                            <option class="grey" value="22" >Nusa Tenggara Barat</option>
+                                                            <option class="grey" value="23" >Nusa Tenggara Timur</option>
+                                                            <option class="grey" value="24" >Papua</option>
+                                                            <option class="grey" value="25" >Papua Barat</option>
+                                                            <option class="grey" value="38" >Papua Barat Daya</option>
+                                                            <option class="grey" value="39" >Papua Pegunungan</option>
+                                                            <option class="grey" value="37" >Papua Selatan</option>
+                                                            <option class="grey" value="36" >Papua Tengah</option>
+                                                            <option class="grey" value="26" >Riau</option>
+                                                            <option class="grey" value="27" >Sulawesi Barat</option>
+                                                            <option class="grey" value="28" >Sulawesi Selatan</option>
+                                                            <option class="grey" value="29" >Sulawesi Tengah</option>
+                                                            <option class="grey" value="30" >Sulawesi Tenggara</option>
+                                                            <option class="grey" value="31" >Sulawesi Utara</option>
+                                                            <option class="grey" value="32" >Sumatera Barat</option>
+                                                            <option class="grey" value="33" >Sumatera Selatan</option>
+                                                            <option class="grey" value="34" >Sumatera Utara</option>
+                                                    </select>
+                    </div>
+                    <div class="mb-0" style="order: 99;">
+                        <a href="javascript:void(0);" class="rounded-mid py-3 btn btn-primary btn-primary-black sm-w-100" id="dTetapkan">Terapkan</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="sm-d-none" style="width: 100%; height: 500px; margin-bottom: 2rem;">
+        <div id="mapLoading"></div>
+        <div id="dxVectorMap1" class="dx-vectormap sm-d-none" style="width: 100%; height: 500px; margin-bottom: 4rem;"></div>
+    </div>
+
+    <div class="container-xxl osan-summary-container" id="osanSummarySection" style="display: none;">
+        <div class="card card-green pt-sm-0">
+            <div class="osan-content">
+                <div class="d-flex align-items-center gap-2 mb-5">
+                    <img src="https://budaya-indonesia.org/img/osan.png" alt="" style="height: 32px;">
+                    <h4 class="mb-0">Ringkasan Sandi</h4>
+	                </div>
+	                <div class="osan-answer row">
+	                    <div class="col-xl-8 col-12">
+	                        <div class="osan-status">Sandi sedang menyusun jawaban...</div>
+	                        <div class="osan-skeleton">
+	                            <div class="osan-skeleton-line"></div>
+	                            <div class="osan-skeleton-line"></div>
+	                            <div class="osan-skeleton-line"></div>
+	                        </div>
+	                        <div class="summary"></div>
+	                    </div>
+	                    <div class="sources col-xl-4 col-12 mt-4" style="display: none;">
+	                        <h5>Sumber</h5>
+	                        <div class="sumber"></div>
+	                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl">
+    <div class="card card-green pt-sm-0">
+        <div class="card-body">
+            <h4 class="text-black fw-bold d-inline-block border-2 mb-0" style="border-bottom: 2px solid var(--cs-primary); margin-bottom: 2rem;">
+                Entri Terkait
+            </h4>
+
+            <div class="row">
+                                    <div class="col-12 col-md-6 col-xl-4 mt-1 mt-md-6">
+                        <div class="card mt-3 card-entry custom-card" style="border-radius: 20px; min-width: 200px; background-color:#d8efe6;">
+    <div class="card-body" style="padding: 1rem;">
+
+        <div class="d-flex justify-content-start gap-3 gap-lg-4 flex-nowrap">
+            <div class="flex-shrink-0">
+                <img src="https://pdbifiles.nos.jkt-1.neo.id/files/2026/05/20/kianasarayu_1873334078_1779255097.jpg"
+                    alt="Gambar Entri"
+                    class="br-16 entry-thumbnail object-fit-cover">
+            </div>
+            <div class="flex-grow-1 overflow-hidden">
+                <h6 class="text-truncate-1 fw-bold fz-14" style="margin-bottom: 6px;">
+                    <a href="https://budaya-indonesia.org/songket-palembang-jejak-sriwijaya-dalam-selembar-kain-martabat" class="text-dark stretched-link">
+                        Songket Palembang: Jejak Sriwijaya dalam Selembar Kain Martabat
+                    </a>
+                </h6>
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                        <div class="rounded-pill bg-primary-100 py-1 d-inline-flex align-items-center gap-1" style="padding: 0 5px; background-color:#f3faf7;">
+                            <img src="https://budaya-indonesia.org/icons/element/v2-motif-kain.svg" alt="Motif Kain" style="border: 1px solid #036666; height: 12px; width: 12px; border-radius: 50%">
+                            <span class="text-primary-dark fz-10">Motif Kain</span>
+                        </div>
+                        <div class="rounded-pill bg-primary-100 py-1 px-2 d-inline-flex align-items-center gap-2 mb-2" style="background-color:#f3faf7;">
+                            <span class="text-primary-dark fz-10">Sumatera Selatan</span>
+                        </div>
+                    </div>
+                
+                <p style="margin-bottom: 6px;" class="text-truncate-3 fz-10 sm-text-truncate-2">
+                     Songket Palembang: Jejak Sriwijaya dalam Selembar Kain Martabat 
+ Identitas dan Asal-Usul 
+ Songket Palembang merupakan kain tenun tradisional yang diakui sebagai warisan budaya tak benda Indonesia sejak tahun 2013 [S1]. Kain ini dikenal luas karena kekayaan historisnya dan menjadi penanda martabat dalam budaya masyarakat Palembang [S3, C5, C6]. Popularitasnya sering terlihat dalam berbagai pameran dan dikenakan oleh tokoh publik [C2]. 
+ Asal-usul Songket Palembang kerap dikaitkan dengan masa Kemaharajaan Sriwijaya, yang berpusat di Palembang, Sumatera Selatan [S3, C4]. Sejak masa kerajaan, songket tidak hanya berfungsi sebagai busana, tetapi juga sebagai simbol kedudukan, kehormatan, dan peran sosial seseorang [C7]. Keunikan ini menjadikan Songket Palembang lebih dari sekadar kain indah, melainkan sarat akan nilai sosial dan filosofis yang melekat pada setiap helainya [C8, C9]. 
+ Meskipun demikian, belum ada sumber yang secara spesifik merinci sentra produksi Songket Palembang selain...
+                </p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="https://budaya-indonesia.org/static/profil_male.gif" 
+                        alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                    <h6 class="mb-0 text-truncate-1 fz-12">
+                        Kianasarayu 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                                    <div class="col-12 col-md-6 col-xl-4 mt-1 mt-md-6">
+                        <div class="card mt-3 card-entry custom-card" style="border-radius: 20px; min-width: 200px; background-color:#d8efe6;">
+    <div class="card-body" style="padding: 1rem;">
+
+        <div class="d-flex justify-content-start gap-3 gap-lg-4 flex-nowrap">
+            <div class="flex-shrink-0">
+                <img src="https://budaya-indonesia.org/static/bg-400/element-4.png"
+                    alt="Gambar Entri"
+                    class="br-16 entry-thumbnail object-fit-cover">
+            </div>
+            <div class="flex-grow-1 overflow-hidden">
+                <h6 class="text-truncate-1 fw-bold fz-14" style="margin-bottom: 6px;">
+                    <a href="https://budaya-indonesia.org/tenun-ntt-simbol-status-identitas-dan-kisah-leluhur" class="text-dark stretched-link">
+                        Tenun NTT: Simbol Status, Identitas, dan Kisah Leluhur
+                    </a>
+                </h6>
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                        <div class="rounded-pill bg-primary-100 py-1 d-inline-flex align-items-center gap-1" style="padding: 0 5px; background-color:#f3faf7;">
+                            <img src="https://budaya-indonesia.org/icons/element/v2-motif-kain.svg" alt="Motif Kain" style="border: 1px solid #036666; height: 12px; width: 12px; border-radius: 50%">
+                            <span class="text-primary-dark fz-10">Motif Kain</span>
+                        </div>
+                        <div class="rounded-pill bg-primary-100 py-1 px-2 d-inline-flex align-items-center gap-2 mb-2" style="background-color:#f3faf7;">
+                            <span class="text-primary-dark fz-10">Nusa Tenggara Timur</span>
+                        </div>
+                    </div>
+                
+                <p style="margin-bottom: 6px;" class="text-truncate-3 fz-10 sm-text-truncate-2">
+                     Tenun NTT: Simbol Status, Identitas, dan Kisah Leluhur 
+ Identitas dan Asal-Usul 
+ Tradisi tenun yang paling populer di Indonesia merujuk pada  Tenun Ikat , khususnya varian yang berasal dari Nusa Tenggara Timur (NTT). Popularitas ini tidak terlepas dari keunikan teknik, motif, dan makna filosofisnya yang kuat dalam budaya masyarakat setempat [S1]. Tenun ikat di NTT merupakan warisan budaya yang bertahan hingga kini, diwariskan secara turun-temurun dan menjadi bagian integral dari identitas komunitas [S2]. 
+ Secara geografis, sentra tenun ikat NTT tersebar di berbagai pulau, dengan  Pulau Sumba  dikenal sebagai salah satu pusat tradisi ini yang paling kuat. Di Sumba, pembuatan kain tenun ikat tradisional masih lestari, dengan kampung-kampung seperti Kanatang dan desa-desa di wilayah Sumba Timur menjadi lokasi perajin aktif [S3]. Proses pembuatannya sangat mengikat dengan sejarah dan kehidupan masyarakat, di mana kain tenun bukan sekadar produk ekonomi tetapi juga warisan leluhur yang...
+                </p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="https://budaya-indonesia.org/static/profil_male.gif" 
+                        alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                    <h6 class="mb-0 text-truncate-1 fz-12">
+                        Kianasarayu 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                                    <div class="col-12 col-md-6 col-xl-4 mt-1 mt-md-6">
+                        <div class="card mt-3 card-entry custom-card" style="border-radius: 20px; min-width: 200px; background-color:#d8efe6;">
+    <div class="card-body" style="padding: 1rem;">
+
+        <div class="d-flex justify-content-start gap-3 gap-lg-4 flex-nowrap">
+            <div class="flex-shrink-0">
+                <img src="https://budaya-indonesia.org/static/bg-400/element-11.png"
+                    alt="Gambar Entri"
+                    class="br-16 entry-thumbnail object-fit-cover">
+            </div>
+            <div class="flex-grow-1 overflow-hidden">
+                <h6 class="text-truncate-1 fw-bold fz-14" style="margin-bottom: 6px;">
+                    <a href="https://budaya-indonesia.org/sekaten-adalah-upacara-peringatan-kelahiran-nabi-muhammad-saw-asal-usul-dan-sejarah-serta-fungsi" class="text-dark stretched-link">
+                        Sekaten adalah Upacara Peringatan Kelahiran Nabi Muhammad SAW: Asal-usul dan sejarah serta fungsi,
+                    </a>
+                </h6>
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                        <div class="rounded-pill bg-primary-100 py-1 d-inline-flex align-items-center gap-1" style="padding: 0 5px; background-color:#f3faf7;">
+                            <img src="https://budaya-indonesia.org/icons/element/v2-ritual.svg" alt="Ritual" style="border: 1px solid #036666; height: 12px; width: 12px; border-radius: 50%">
+                            <span class="text-primary-dark fz-10">Ritual</span>
+                        </div>
+                        <div class="rounded-pill bg-primary-100 py-1 px-2 d-inline-flex align-items-center gap-2 mb-2" style="background-color:#f3faf7;">
+                            <span class="text-primary-dark fz-10">Daerah Istimewa Yogyakarta</span>
+                        </div>
+                    </div>
+                
+                <p style="margin-bottom: 6px;" class="text-truncate-3 fz-10 sm-text-truncate-2">
+                     Sekaten adalah Upacara Peringatan Kelahiran Nabi Muhammad SAW: Asal-usul dan sejarah serta fungsi, makna, dan nilai budaya 
+ Identitas Ritual 
+ Sekaten adalah rangkaian upacara tahunan yang diselenggarakan oleh Keraton Yogyakarta dan Keraton Surakarta untuk memperingati kelahiran Nabi Muhammad SAW (Maulid Nabi) [S1][S3]. Ritual ini berlangsung selama delapan hari, dimulai pada tanggal 5 Rabi'ul Awal (Mulud dalam kalender Jawa) dan berakhir pada tanggal 12 Rabi'ul Awal dengan upacara penutup bernama Garebeg Mulud [S3]. Nama &quot;Sekaten&quot; sendiri berasal dari adaptasi istilah Arab  syahadatain , yang merujuk pada dua persaksian (syahadat) dalam Islam [S1]. 
+ Komunitas pelaksana Sekaten adalah institusi keraton sebagai pusat ritual, dengan melibatkan masyarakat luas dalam prosesi dan perayaan [S2]. Lokasi utama penyelenggaraan adalah Yogyakarta, meskipun tradisi serupa juga dilaksanakan di Surakarta [S1]. Upacara ini bukan sekadar perayaan keagamaan, melainkan laku budaya-religius...
+                </p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="https://budaya-indonesia.org/static/profil_male.gif" 
+                        alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                    <h6 class="mb-0 text-truncate-1 fz-12">
+                        Kianasarayu 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                                    <div class="col-12 col-md-6 col-xl-4 mt-1 mt-md-6">
+                        <div class="card mt-3 card-entry custom-card" style="border-radius: 20px; min-width: 200px; background-color:#d8efe6;">
+    <div class="card-body" style="padding: 1rem;">
+
+        <div class="d-flex justify-content-start gap-3 gap-lg-4 flex-nowrap">
+            <div class="flex-shrink-0">
+                <img src="https://budaya-indonesia.org/static/bg-400/element-2.png"
+                    alt="Gambar Entri"
+                    class="br-16 entry-thumbnail object-fit-cover">
+            </div>
+            <div class="flex-grow-1 overflow-hidden">
+                <h6 class="text-truncate-1 fw-bold fz-14" style="margin-bottom: 6px;">
+                    <a href="https://budaya-indonesia.org/kedatuan-luwu-salah-satu-peradaban-tertua-di-sulawesi-selatan-yang-jejak-sejarahnya-berkelindan-erat-dengan-mitolo" class="text-dark stretched-link">
+                        Kedatuan Luwu: Salah satu peradaban tertua di Sulawesi Selatan yang jejak sejarahnya berkelindan erat dengan mitolo
+                    </a>
+                </h6>
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                        <div class="rounded-pill bg-primary-100 py-1 d-inline-flex align-items-center gap-1" style="padding: 0 5px; background-color:#f3faf7;">
+                            <img src="https://budaya-indonesia.org/icons/element/v2-cerita-rakyat.svg" alt="Cerita Rakyat" style="border: 1px solid #036666; height: 12px; width: 12px; border-radius: 50%">
+                            <span class="text-primary-dark fz-10">Cerita Rakyat</span>
+                        </div>
+                        <div class="rounded-pill bg-primary-100 py-1 px-2 d-inline-flex align-items-center gap-2 mb-2" style="background-color:#f3faf7;">
+                            <span class="text-primary-dark fz-10">Sulawesi Selatan</span>
+                        </div>
+                    </div>
+                
+                <p style="margin-bottom: 6px;" class="text-truncate-3 fz-10 sm-text-truncate-2">
+                     Kedatuan Luwu: Salah satu peradaban tertua di Sulawesi Selatan yang jejak sejarahnya berkelindan erat dengan mitolo 
+ Identitas dan Asal-Usul 
+ Kedatuan Luwu diidentifikasi sebagai salah satu peradaban tertua di Sulawesi Selatan, dengan jejak sejarah yang terjalin erat dengan mitologi, tradisi lisan, dan bukti arkeologis [C11]. Sejarah awal Luwu tidak terlepas dari kisah kosmologis mengenai kedatangan manusia pertama ke bumi, yang menjadi dasar pembentukan tatanan sosial dan kekuasaan di wilayah tersebut [C12]. Kedatuan ini merupakan salah satu dari tiga kerajaan Bugis pertama yang tercatat dalam epik  I La Galigo , bersama dengan Wewang Nriwuk dan Tompotikka [S1]. 
+ Pendirian Kedatuan Luwu diperkirakan terjadi pada abad ke-14 [C4], dengan Tumanurung sebagai Datu Mappanjunge' ri Luwu pertama pada tahun 1300-an [C3]. Kedatuan ini berlanjut hingga sekarang [C1], meskipun tidak memiliki mata uang sendiri dan menggunakan sistem barter [C5]. Luwu bersama kerajaan-kerajaan lain diakui sebag...
+                </p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="https://budaya-indonesia.org/static/profil_male.gif" 
+                        alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                    <h6 class="mb-0 text-truncate-1 fz-12">
+                        Kianasarayu 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                                    <div class="col-12 col-md-6 col-xl-4 mt-1 mt-md-6">
+                        <div class="card mt-3 card-entry custom-card" style="border-radius: 20px; min-width: 200px; background-color:#d8efe6;">
+    <div class="card-body" style="padding: 1rem;">
+
+        <div class="d-flex justify-content-start gap-3 gap-lg-4 flex-nowrap">
+            <div class="flex-shrink-0">
+                <img src="https://pdbifiles.nos.jkt-1.neo.id/files/2026/05/21/kianasarayu_large-lontar-usada-bali-warisan-leluhur-dalam-pengobatan-tradisional-bali-bL9BpJOsiw_1779342813.jpg"
+                    alt="Gambar Entri"
+                    class="br-16 entry-thumbnail object-fit-cover">
+            </div>
+            <div class="flex-grow-1 overflow-hidden">
+                <h6 class="text-truncate-1 fw-bold fz-14" style="margin-bottom: 6px;">
+                    <a href="https://budaya-indonesia.org/lontar-usada-bali-warisan-pengobatan-nusantara-yang-terlupakan" class="text-dark stretched-link">
+                        Lontar Usada Bali: Warisan Pengobatan Nusantara yang Terlupakan?
+                    </a>
+                </h6>
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                        <div class="rounded-pill bg-primary-100 py-1 d-inline-flex align-items-center gap-1" style="padding: 0 5px; background-color:#f3faf7;">
+                            <img src="https://budaya-indonesia.org/icons/element/v2-naskah-kuno-dan-prasasti.svg" alt="Naskah Kuno dan Prasasti" style="border: 1px solid #036666; height: 12px; width: 12px; border-radius: 50%">
+                            <span class="text-primary-dark fz-10">Naskah Kuno dan Prasasti</span>
+                        </div>
+                        <div class="rounded-pill bg-primary-100 py-1 px-2 d-inline-flex align-items-center gap-2 mb-2" style="background-color:#f3faf7;">
+                            <span class="text-primary-dark fz-10">Bali</span>
+                        </div>
+                    </div>
+                
+                <p style="margin-bottom: 6px;" class="text-truncate-3 fz-10 sm-text-truncate-2">
+                     Lontar Usada Bali: Warisan Pengobatan Nusantara yang Terlupakan? 
+ Identitas dan Asal-Usul 
+ Lontar Usada Bali adalah naskah klasik yang mengkategorikan diri dalam ranah pengetahuan dan praktik pengobatan tradisional (usada) di Nusantara [S1], [S3]. Naskah-naskah ini secara spesifik ditulis di atas daun lontar dengan menggunakan aksara dan bahasa Bali Kuna hingga Bali Tengahan [S1]. Kategorinya dalam sistem Warisan Budaya Takbenda Indonesia masuk dalam domain &quot;Pengetahuan dan kebiasaan perilaku mengenai alam dan semesta,&quot; sejalan dengan penetapan praktik serupa seperti Pengobatan Tradisional Raksa Jasad [S2]. 
+ Asal-usul historisnya di Bali seringkali dilekatkan pada periode pengaruh Majapahit dan penyebaran agama Hindu, meskipun sayangnya, belum ada sumber dari daftar yang secara pasti mengungkap waktu dan tokoh awal penciptaan teks-teks ini. Salah satu versi mengaitkan proses kodifikasi dan pengembangan sistem pengobatan ini dengan peran Dang Hyang Nirartha, seorang tokoh...
+                </p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="https://budaya-indonesia.org/static/profil_male.gif" 
+                        alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                    <h6 class="mb-0 text-truncate-1 fz-12">
+                        Kianasarayu 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                                    <div class="col-12 col-md-6 col-xl-4 mt-1 mt-md-6">
+                        <div class="card mt-3 card-entry custom-card" style="border-radius: 20px; min-width: 200px; background-color:#d8efe6;">
+    <div class="card-body" style="padding: 1rem;">
+
+        <div class="d-flex justify-content-start gap-3 gap-lg-4 flex-nowrap">
+            <div class="flex-shrink-0">
+                <img src="https://budaya-indonesia.org/static/bg-400/element-13.png"
+                    alt="Gambar Entri"
+                    class="br-16 entry-thumbnail object-fit-cover">
+            </div>
+            <div class="flex-grow-1 overflow-hidden">
+                <h6 class="text-truncate-1 fw-bold fz-14" style="margin-bottom: 6px;">
+                    <a href="https://budaya-indonesia.org/keris-jawa-lebih-dari-sekadar-senjata-simbol-budaya-dan-pusaka" class="text-dark stretched-link">
+                        Keris Jawa: Lebih dari Sekadar Senjata, Simbol Budaya dan Pusaka
+                    </a>
+                </h6>
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                        <div class="rounded-pill bg-primary-100 py-1 d-inline-flex align-items-center gap-1" style="padding: 0 5px; background-color:#f3faf7;">
+                            <img src="https://budaya-indonesia.org/icons/element/v2-senjata-dan-alat-perang.svg" alt="Senjata dan Alat Perang" style="border: 1px solid #036666; height: 12px; width: 12px; border-radius: 50%">
+                            <span class="text-primary-dark fz-10">Senjata dan Alat Perang</span>
+                        </div>
+                        <div class="rounded-pill bg-primary-100 py-1 px-2 d-inline-flex align-items-center gap-2 mb-2" style="background-color:#f3faf7;">
+                            <span class="text-primary-dark fz-10">Jawa Tengah</span>
+                        </div>
+                    </div>
+                
+                <p style="margin-bottom: 6px;" class="text-truncate-3 fz-10 sm-text-truncate-2">
+                     Keris Jawa: Lebih dari Sekadar Senjata, Simbol Budaya dan Pusaka 
+ Identitas dan Asal-Usul 
+ Keris merupakan pusaka masyarakat Jawa yang memiliki bentuk khas dan makna filosofis mendalam [S1]. Senjata tradisional ini diakui sebagai simbol budaya Nusantara dengan nilai sejarah, seni, dan filosofi yang tinggi [S3]. Keris Jawa secara spesifik merupakan salah satu simbol budaya yang sangat penting dalam sejarah dan tradisi Jawa [S2, S7]. Pengakuan UNESCO terhadap keris sebagai warisan dunia menegaskan statusnya yang berasal dari zaman logam [S4]. 
+ Secara historis, keris tidak hanya berfungsi sebagai senjata tradisional untuk peperangan [S2, C2], tetapi juga sebagai benda pusaka warisan nenek moyang [C3]. Lebih dari itu, keris juga menjadi simbol spiritual, status sosial, dan warisan keluarga [C12]. Keris Jawa sendiri memiliki banyak jenis dengan fungsi dan makna yang berbeda, mencerminkan kekayaan tradisi yang menyertainya [C8]. Keberadaannya juga meluas sebagai alat perlengkapan dalam b...
+                </p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="https://budaya-indonesia.org/static/profil_male.gif" 
+                        alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                    <h6 class="mb-0 text-truncate-1 fz-12">
+                        Kianasarayu 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                                    <div class="col-12 col-md-6 col-xl-4 mt-1 mt-md-6">
+                        <div class="card mt-3 card-entry custom-card" style="border-radius: 20px; min-width: 200px; background-color:#d8efe6;">
+    <div class="card-body" style="padding: 1rem;">
+
+        <div class="d-flex justify-content-start gap-3 gap-lg-4 flex-nowrap">
+            <div class="flex-shrink-0">
+                <img src="https://pdbifiles.nos.jkt-1.neo.id/files/2026/05/22/kianasarayu_hadiri-gala-premiere-lagu-tema-film-timun-mas-in-wonderland-menteri-kebudayaan-dorong-cerita-rakyat-jadi-kekuatan-global-1_1779424524.jpeg"
+                    alt="Gambar Entri"
+                    class="br-16 entry-thumbnail object-fit-cover">
+            </div>
+            <div class="flex-grow-1 overflow-hidden">
+                <h6 class="text-truncate-1 fw-bold fz-14" style="margin-bottom: 6px;">
+                    <a href="https://budaya-indonesia.org/cerita-rakyat-dari-jawa-tengah-kisah-timun-mas" class="text-dark stretched-link">
+                        Cerita Rakyat dari Jawa Tengah: Kisah Timun Mas
+                    </a>
+                </h6>
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                        <div class="rounded-pill bg-primary-100 py-1 d-inline-flex align-items-center gap-1" style="padding: 0 5px; background-color:#f3faf7;">
+                            <img src="https://budaya-indonesia.org/icons/element/v2-cerita-rakyat.svg" alt="Cerita Rakyat" style="border: 1px solid #036666; height: 12px; width: 12px; border-radius: 50%">
+                            <span class="text-primary-dark fz-10">Cerita Rakyat</span>
+                        </div>
+                        <div class="rounded-pill bg-primary-100 py-1 px-2 d-inline-flex align-items-center gap-2 mb-2" style="background-color:#f3faf7;">
+                            <span class="text-primary-dark fz-10">Jawa Tengah</span>
+                        </div>
+                    </div>
+                
+                <p style="margin-bottom: 6px;" class="text-truncate-3 fz-10 sm-text-truncate-2">
+                     Cerita Rakyat dari Jawa Tengah: Kisah Timun Mas 
+ Lead Kisah 
+ Di balik rimbunnya hutan Jawa Tengah, tersimpan sebuah narasi tentang keberanian yang melampaui usia. Kisah ini berpusat pada sosok gadis kecil bernama Timun Mas, yang namanya kini tak hanya dikenal sebagai tokoh dalam buku cerita anak-anak, tetapi telah menjadi bagian dari ingatan kolektif masyarakat Indonesia [S2], [S3]. Ia bukan sekadar karakter fiktif, melainkan simbol perjuangan yang gigih melawan ancaman raksasa yang hendak merenggut kebebasannya [S3], [S4]. 
+ Sebagai bagian dari kekayaan tradisi lisan yang diwariskan turun-temurun, legenda ini memiliki daya pikat yang tak lekang oleh waktu [S1], [S2]. Di wilayah Jawa Tengah, cerita ini sering pula disebut dengan nama Mentimun Emas, sebuah variasi penamaan yang menunjukkan betapa luasnya penyebaran kisah ini dalam berbagai versi di tengah masyarakat [S2], [S5], [S5]. Keberadaannya yang populer membuktikan bahwa narasi tradisional ini tetap hidup dan relevan, bahkan h...
+                </p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="https://budaya-indonesia.org/static/profil_male.gif" 
+                        alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                    <h6 class="mb-0 text-truncate-1 fz-12">
+                        Kianasarayu 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                                    <div class="col-12 col-md-6 col-xl-4 mt-1 mt-md-6">
+                        <div class="card mt-3 card-entry custom-card" style="border-radius: 20px; min-width: 200px; background-color:#d8efe6;">
+    <div class="card-body" style="padding: 1rem;">
+
+        <div class="d-flex justify-content-start gap-3 gap-lg-4 flex-nowrap">
+            <div class="flex-shrink-0">
+                <img src="https://budaya-indonesia.org/static/bg-400/element-7.png"
+                    alt="Gambar Entri"
+                    class="br-16 entry-thumbnail object-fit-cover">
+            </div>
+            <div class="flex-grow-1 overflow-hidden">
+                <h6 class="text-truncate-1 fw-bold fz-14" style="margin-bottom: 6px;">
+                    <a href="https://budaya-indonesia.org/eksplorasi-seni-ornamen-rumah-gadang-simbolisme-dan-warisan-budaya-minangkabau" class="text-dark stretched-link">
+                        Eksplorasi Seni Ornamen Rumah Gadang: Simbolisme dan Warisan Budaya Minangkabau
+                    </a>
+                </h6>
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                        <div class="rounded-pill bg-primary-100 py-1 d-inline-flex align-items-center gap-1" style="padding: 0 5px; background-color:#f3faf7;">
+                            <img src="https://budaya-indonesia.org/icons/element/v2-ornamen.svg" alt="Ornamen" style="border: 1px solid #036666; height: 12px; width: 12px; border-radius: 50%">
+                            <span class="text-primary-dark fz-10">Ornamen</span>
+                        </div>
+                        <div class="rounded-pill bg-primary-100 py-1 px-2 d-inline-flex align-items-center gap-2 mb-2" style="background-color:#f3faf7;">
+                            <span class="text-primary-dark fz-10">Sumatera Barat</span>
+                        </div>
+                    </div>
+                
+                <p style="margin-bottom: 6px;" class="text-truncate-3 fz-10 sm-text-truncate-2">
+                     Eksplorasi Seni Ornamen Rumah Gadang: Simbolisme dan Warisan Budaya Minangkabau 
+ Identitas dan Asal-Usul 
+ Seni ornamen Rumah Gadang merupakan manifestasi kebudayaan masyarakat Minangkabau yang berfungsi sebagai media penyampaian nilai-nilai filosofis dan tradisi leluhur [S1]. Ornamen ini bukan sekadar elemen dekoratif, melainkan representasi mendalam dari cara hidup dan pandangan dunia suku Minangkabau yang diwariskan secara turun-temurun [S1]. Keberadaannya menjadi jendela utama untuk memahami kekayaan warisan budaya yang melekat pada arsitektur tradisional di wilayah Sumatera Barat [S1]. 
+ Secara konseptual, eksplorasi terhadap seni ornamen ini merupakan upaya penyelidikan dan penemuan pengetahuan baru mengenai simbolisme yang terkandung di dalamnya [S2], [S5]. Kegiatan eksplorasi dalam konteks budaya ini melibatkan proses penjelajahan lapangan untuk memperoleh pemahaman yang lebih komprehensif mengenai bentuk, makna, dan fungsi ornamen tersebut dalam kehidupan masyarakat [S4], [S...
+                </p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="https://budaya-indonesia.org/static/profil_male.gif" 
+                        alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                    <h6 class="mb-0 text-truncate-1 fz-12">
+                        Kianasarayu 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                            </div>
+
+            <div class="d-flex justify-content-center" style="padding-top: 4rem;">
+                <nav aria-label="Page navigation">
+    <ul class="pagination pagination-rounded flex-wrap">
+        
+
+        
+        <li class="page-item prev ">
+            <a class="page-link" href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=6518">
+                <i class="icon-base bx bx-chevron-left icon-sm"></i>
+            </a>
+        </li>
+
+        
+        <li class="page-item">
+            <a class="page-link " href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=1">1</a>
+        </li>
+
+        
+                    <li class="page-item disabled"><span class="page-link">...</span></li>
+        
+        
+                    <li class="page-item">
+                <a class="page-link " href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=6517">6517</a>
+            </li>
+                    <li class="page-item">
+                <a class="page-link " href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=6518">6518</a>
+            </li>
+        
+        
+        
+        
+                    <li class="page-item">
+                <a class="page-link active" href="https://budaya-indonesia.org/cari?gambar=0&amp;audio=0&amp;video=0&amp;pdf=0&amp;page=6519">6519</a>
+            </li>
+        
+        
+        <li class="page-item next disabled">
+            <a class="page-link" href="javascript:void(0);">
+                <i class="icon-base bx bx-chevron-right icon-sm"></i>
+            </a>
+        </li>
+
+        
+    </ul>
+</nav>
+            </div>
+
+        </div>
+    </div>
+    
+</div>    
+    <footer class="bg-primary-dark pt-lg-8">
+    <div class="container-xxl">
+                    <div class="row d-flex flex-wrap align-items-start justify-content-between">
+                <div class="col-12 col-md-auto footer-col-left">
+                    <div class="footer-left d-flex justify-content-start gap-4 mb-4 mb-md-0">
+                        <a class="sosmed me-2" href="#"><img height="72" src="https://budaya-indonesia.org/img/new_logo.png" alt="Logo"></a>
+                        <a class="sosmed me-3" href="#"><img height="72" src="https://budaya-indonesia.org/img/app/logo-SB.png" alt="Logo"></a>
+                        <a class="sosmed" href="http://bandungfe.net/"><img class="bg-white p-2 rounded" height="72" src="https://budaya-indonesia.org/img/app/bandungfe.png" alt="Logo"></a>
+                    </div>
+                </div>
+
+                <div class="footer-right col-12 col-md-auto d-flex flex-column flex-md-row justify-content-between flex-wrap" style="gap: 40px;">
+                    <!-- IACI Links -->
+                    <div>
+                        <div class="mb-3">
+                            <h5 class="mb-2 text-white fw-bold">IACI</h5>
+                            <div class="footer-link-group">
+                                <a href="https://budaya-indonesia.org/IACI" class="mb-1 light-link d-inline-block">Tentang</a>
+                                <a href="https://budaya-indonesia.org/cari?etype=2" class="mb-1 light-link d-inline-block">Berita</a>
+                                <a href="https://budaya-indonesia.org/cari?etype=5" class="mb-1 light-link d-inline-block">Agenda</a>
+                                <a href="https://budaya-indonesia.org/cari?etype=7" class="mb-1 light-link d-inline-block">Jurnal</a>
+                                <div>
+                                    <a href="https://budaya-indonesia.org/feed/entry" class="mb-1 light-link d-inline-block">RSS Feed</a>
+                                    <a href="https://budaya-indonesia.org/feed/diskusi" class="mb-1 light-link d-inline-block">RSS Feed Diskusi</a>
+                                    <a href="https://budaya-indonesia.org/FAQ" class="mb-1 light-link d-inline-block last">FAQ</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+            <hr style="margin-bottom:2rem; margin-top:2rem; border: 1px solid white">
+                <div class="footer-socmed-bottom d-flex justify-content-between">
+            <div class="text-white" style="font-size: 12px;">&copy; 2007 - 2026 Perpustakaan Digital Budaya Indonesia</div>
+            <div class="socmed-right text-center">
+                <a href="mailto:office@budaya-indonesia.org" class="me-4">
+                    <img src="https://budaya-indonesia.org/icons/social/mail.svg" style="width: 24px; height:24px;">
+                </a>
+                <a href="https://x.com/infobudaya" class="me-4">
+                    <img src="https://budaya-indonesia.org/icons/social/x.svg" style="width: 24px; height:24px;">
+                </a>
+                <a href="http://on.fb.me/BudayaIndonesia">
+                    <img src="https://budaya-indonesia.org/icons/social/facebook.svg" style="width: 24px; height:24px;">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>    <div id="newWebInfo" class="alert alert-success alert-dismissible fade show rounded-10px position-fixed mt-3 me-3 shadow z-1030" role="alert" 
+    style="
+        max-width: 350px; 
+        z-index: 10000; 
+        bottom: 40px;
+        border-radius: 8px;
+        background: var(--primary-pdbi-50, #F3FAF7);
+        color: var(--primary-pdbi-900, #214037);
+        right: 16px;
+    ">
+
+    <div class="fz-12" style="line-height: 18px;">
+        Anda sedang melihat tampilan baru Perpustakaan Digital Budaya Indonesia. Klik <a class="text-primary-dark text-decoration-underline" href="https://versilama.budaya-indonesia.org">tautan</a> ini untuk kembali ke versi lama.
+    </div>
+</div>
+
+
+<!-- Floating Info Icon -->
+<div id="infoIcon" class="floating-info-icon position-fixed m-3 z-1030" style="cursor: pointer; bottom: 6px !important; right: 16px; z-index: 10000;">
+    <svg onclick="toggleInfoAlert()" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="#F3FAF7" stroke="#214037" stroke-width="1.5" >
+      <path d="M13 16H12V12H11M12 8H12.01M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+</div>
+
+<script>
+  function toggleInfoAlert() {
+    const alertBox = document.getElementById('newWebInfo');
+    const icon = document.getElementById('infoIcon');
+
+    if (alertBox.style.display === 'none' || !alertBox.classList.contains('show')) {
+      // Position alert above the icon
+      const iconRect = icon.getBoundingClientRect();
+      alertBox.style.display = 'block';
+      setTimeout(() => alertBox.classList.add('show'), 10);
+    } else {
+      hideInfoAlert();
+    }
+  }
+
+  function hideInfoAlert() {
+    const alertBox = document.getElementById('newWebInfo');
+    alertBox.classList.remove('show');
+    setTimeout(() => {
+      alertBox.style.display = 'none';
+    }, 200);
+  }
+</script>
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="https://budaya-indonesia.org/assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="https://budaya-indonesia.org/assets/vendor/libs/popper/popper.js"></script>
+    <script src="https://budaya-indonesia.org/assets/vendor/js/bootstrap.js"></script>
+    <script src="https://budaya-indonesia.org/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="https://budaya-indonesia.org/assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+
+    <!-- Main JS -->
+    <script src="https://budaya-indonesia.org/assets/vendor/js/main.js"></script>
+
+    <!-- Page JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script>
+
+    <script src="https://budaya-indonesia.org/js/typeahead.jquery.min.js"></script>
+    <script src="https://budaya-indonesia.org/js/bootstrap3-typeahead.min.js"></script>
+
+    
+            <script src="https://budaya-indonesia.org/js/search-suggest.js?v=1748927967"></script>
+            <script src="https://budaya-indonesia.org/js/helper.js?v=1776417263"></script>
+        
+    
+
+    <script>
+        $(document).ready(function () {
+            $('#searchToggle').on('click', function () {
+                $('#searchForm').toggleClass('d-none');
+            });
+        });
+    </script>
+
+    
+    <script>
+        $(document).ready(function(){
+            var counter = 0;
+            function updateUIState(){
+                $('[id^="text-twit"]').hide().eq(++counter % 5).show();
+                initTimeout();
+            }
+
+            function initTimeout(){
+                setTimeout(updateUIState, 5000)
+            }
+
+            var mcounter = 0;
+            function mupdateUIState(){
+                $('[id^="text-twit-m"]').hide().eq(++mcounter % 5).show();
+                minitTimeout();
+            }
+
+            function minitTimeout(){
+                setTimeout(mupdateUIState, 5000)
+            }
+
+            initTimeout();
+            minitTimeout();
+            
+            window.CSRF_TOKEN = $('meta[name=csrf-token]').attr('content');
+            window.BUDI = {
+                max_file_upload: 500000,
+                allowed_ext: 'jpg, jpeg, png, gif, bmp, mp4, mp3, mpeg, avi, pdf',
+                month_names: [
+                                        "Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"
+                ]
+            };
+            
+            window.BUDI.dateToLong = function(date, withTime) {
+                date = new Date(date);
+                let day = date.getDate();
+                day = day.toString();
+                day = day.length < 2 ? '0' + day : day;
+                let monthIndex = date.getMonth();
+                let year = date.getFullYear();
+                let time = date.toTimeString().split(' ')[0];
+                date = day + ' ' + BUDI.month_names[monthIndex] + ' ' + year;
+                if (withTime) {
+                    return `${date} ${time}`;
+                } else {
+                    return date;
+                }
+            };
+            function myTrim(x) {
+                return x.replace(/^\s+|\s+$/gm,'');
+            }
+        })
+    </script>
+
+    <script src="https://budaya-indonesia.org/app/website/search-filter.js"></script>
+<script defer>
+    window.CSRF_TOKEN = $('meta[name=csrf-token]').attr('content');
+    const statesData = getProvinceCoordinates();
+
+    (function ($) {
+        const allProvinces = JSON.parse('[{"eid":43,"ekey":"province","eval":21,"etext":"Aceh","edef":1},{"eid":23,"ekey":"province","eval":1,"etext":"Bali","edef":1},{"eid":25,"ekey":"province","eval":3,"etext":"Banten","edef":1},{"eid":26,"ekey":"province","eval":4,"etext":"Bengkulu","edef":1},{"eid":28,"ekey":"province","eval":6,"etext":"DKI Jakarta","edef":1},{"eid":27,"ekey":"province","eval":5,"etext":"Daerah Istimewa Yogyakarta","edef":1},{"eid":29,"ekey":"province","eval":7,"etext":"Gorontalo","edef":1},{"eid":31,"ekey":"province","eval":9,"etext":"Jambi","edef":1},{"eid":32,"ekey":"province","eval":10,"etext":"Jawa Barat","edef":1},{"eid":33,"ekey":"province","eval":11,"etext":"Jawa Tengah","edef":1},{"eid":34,"ekey":"province","eval":12,"etext":"Jawa Timur","edef":1},{"eid":35,"ekey":"province","eval":13,"etext":"Kalimantan Barat","edef":1},{"eid":36,"ekey":"province","eval":14,"etext":"Kalimantan Selatan","edef":1},{"eid":37,"ekey":"province","eval":15,"etext":"Kalimantan Tengah","edef":1},{"eid":38,"ekey":"province","eval":16,"etext":"Kalimantan Timur","edef":1},{"eid":64,"ekey":"province","eval":35,"etext":"Kalimantan Utara","edef":1},{"eid":24,"ekey":"province","eval":2,"etext":"Kepulauan Bangka Belitung","edef":1},{"eid":39,"ekey":"province","eval":17,"etext":"Kepulauan Riau","edef":1},{"eid":40,"ekey":"province","eval":18,"etext":"Lampung","edef":1},{"eid":41,"ekey":"province","eval":19,"etext":"Maluku","edef":1},{"eid":42,"ekey":"province","eval":20,"etext":"Maluku Utara","edef":1},{"eid":44,"ekey":"province","eval":22,"etext":"Nusa Tenggara Barat","edef":1},{"eid":45,"ekey":"province","eval":23,"etext":"Nusa Tenggara Timur","edef":1},{"eid":46,"ekey":"province","eval":24,"etext":"Papua","edef":1},{"eid":47,"ekey":"province","eval":25,"etext":"Papua Barat","edef":1},{"eid":4287,"ekey":"province","eval":38,"etext":"Papua Barat Daya","edef":1},{"eid":4288,"ekey":"province","eval":39,"etext":"Papua Pegunungan","edef":1},{"eid":4286,"ekey":"province","eval":37,"etext":"Papua Selatan","edef":1},{"eid":4285,"ekey":"province","eval":36,"etext":"Papua Tengah","edef":1},{"eid":48,"ekey":"province","eval":26,"etext":"Riau","edef":1},{"eid":49,"ekey":"province","eval":27,"etext":"Sulawesi Barat","edef":1},{"eid":50,"ekey":"province","eval":28,"etext":"Sulawesi Selatan","edef":1},{"eid":51,"ekey":"province","eval":29,"etext":"Sulawesi Tengah","edef":1},{"eid":52,"ekey":"province","eval":30,"etext":"Sulawesi Tenggara","edef":1},{"eid":53,"ekey":"province","eval":31,"etext":"Sulawesi Utara","edef":1},{"eid":54,"ekey":"province","eval":32,"etext":"Sumatera Barat","edef":1},{"eid":55,"ekey":"province","eval":33,"etext":"Sumatera Selatan","edef":1},{"eid":56,"ekey":"province","eval":34,"etext":"Sumatera Utara","edef":1}]');
+        const provinceCounts = JSON.parse('[{"name":"","count":117,"osan_count":14,"id_provinsi":null},{"name":"Aceh","count":1891,"osan_count":5,"id_provinsi":"21"},{"name":"Bali","count":3680,"osan_count":3,"id_provinsi":"1"},{"name":"Banten","count":923,"osan_count":0,"id_provinsi":"3"},{"name":"Bengkulu","count":615,"osan_count":0,"id_provinsi":"4"},{"name":"DKI Jakarta","count":2286,"osan_count":3,"id_provinsi":"6"},{"name":"Daerah Istimewa Yogyakarta","count":1851,"osan_count":11,"id_provinsi":"5"},{"name":"Gorontalo","count":396,"osan_count":0,"id_provinsi":"7"},{"name":"Jambi","count":748,"osan_count":0,"id_provinsi":"9"},{"name":"Jawa Barat","count":8402,"osan_count":17,"id_provinsi":"10"},{"name":"Jawa Tengah","count":7629,"osan_count":13,"id_provinsi":"11"},{"name":"Jawa Timur","count":4522,"osan_count":6,"id_provinsi":"12"},{"name":"Kalimantan Barat","count":1073,"osan_count":0,"id_provinsi":"13"},{"name":"Kalimantan Selatan","count":1699,"osan_count":0,"id_provinsi":"14"},{"name":"Kalimantan Tengah","count":786,"osan_count":0,"id_provinsi":"15"},{"name":"Kalimantan Timur","count":1019,"osan_count":3,"id_provinsi":"16"},{"name":"Kalimantan Utara","count":188,"osan_count":0,"id_provinsi":"35"},{"name":"Kepulauan Bangka Belitung","count":810,"osan_count":0,"id_provinsi":"2"},{"name":"Kepulauan Riau","count":431,"osan_count":0,"id_provinsi":"17"},{"name":"Lampung","count":720,"osan_count":0,"id_provinsi":"18"},{"name":"Maluku","count":1062,"osan_count":1,"id_provinsi":"19"},{"name":"Maluku Utara","count":351,"osan_count":0,"id_provinsi":"20"},{"name":"Nusa Tenggara Barat","count":1074,"osan_count":1,"id_provinsi":"22"},{"name":"Nusa Tenggara Timur","count":947,"osan_count":7,"id_provinsi":"23"},{"name":"Papua","count":1007,"osan_count":3,"id_provinsi":"24"},{"name":"Papua Barat","count":233,"osan_count":0,"id_provinsi":"25"},{"name":"Papua Barat Daya","count":0,"id_provinsi":38},{"name":"Papua Pegunungan","count":0,"id_provinsi":39},{"name":"Papua Selatan","count":0,"id_provinsi":37},{"name":"Papua Tengah","count":0,"id_provinsi":36},{"name":"Riau","count":868,"osan_count":1,"id_provinsi":"26"},{"name":"Sulawesi Barat","count":376,"osan_count":0,"id_provinsi":"27"},{"name":"Sulawesi Selatan","count":2239,"osan_count":4,"id_provinsi":"28"},{"name":"Sulawesi Tengah","count":481,"osan_count":0,"id_provinsi":"29"},{"name":"Sulawesi Tenggara","count":561,"osan_count":0,"id_provinsi":"30"},{"name":"Sulawesi Utara","count":1863,"osan_count":2,"id_provinsi":"31"},{"name":"Sumatera Barat","count":3357,"osan_count":2,"id_provinsi":"32"},{"name":"Sumatera Selatan","count":1625,"osan_count":1,"id_provinsi":"33"},{"name":"Sumatera Utara","count":2840,"osan_count":3,"id_provinsi":"34"}]');
+        const colorMapping = JSON.parse('{"Jawa Barat":"#0C4331","Jawa Tengah":"#104B38","Jawa Timur":"#124F3C","Bali":"#165843","Sumatera Barat":"#185C47","Sumatera Utara":"#1A604B","DKI Jakarta":"#1C644E","Sulawesi Selatan":"#1E6852","Aceh":"#205C56","Sulawesi Utara":"#237059","Daerah Istimewa Yogyakarta":"#26745D","Kalimantan Selatan":"#297860","Sumatera Selatan":"#2C7C64","Nusa Tenggara Barat":"#2F8067","Kalimantan Barat":"#32846B","Maluku":"#35886E","Kalimantan Timur":"#398C72","Papua":"#3C9076","Nusa Tenggara Timur":"#40947A","Banten":"#43987D","Riau":"#479C81","Kepulauan Bangka Belitung":"#4BA085","Kalimantan Tengah":"#4EA489","Jambi":"#52A88D","Lampung":"#56AB91","Bengkulu":"#58B096","Sulawesi Tenggara":"#60B59B","Sulawesi Tengah":"#69BAA1","Kepulauan Riau":"#72C0A7","Gorontalo":"#7BC5AD","Sulawesi Barat":"#84CBB3","Maluku Utara":"#8DD0B9","Papua Barat":"#96D5BF","Kalimantan Utara":"#9FDAC5","":"#A8DFCC","Papua Barat Daya":"#ffffff","Papua Pegunungan":"#ffffff","Papua Selatan":"#ffffff","Papua Tengah":"#ffffff"}');
+
+        const mapConfig = getBasicMapConfig({
+            allProvinces,
+            provinceCounts,
+            colorMapping
+        });
+
+        $(document).ready(function () {
+            $('#dxVectorMap1').dxVectorMap(mapConfig);
+
+            $('#mapLoading').hide();
+            $('#load-bg').hide();
+        });
+    })(jQueryz);
+</script>
+
+<script defer>
+    (function ($) {
+        const currentQuery = null;
+        const $osanSection = $('#osanSummarySection');
+	        $osanSection.hide();
+
+	        let osanSources = [];
+	        let hasReceivedChunkText = false;
+
+	        function showOsanThinking() {
+	            $osanSection.show();
+	            $osanSection.find('.summary').empty().hide();
+	            $osanSection.find('.osan-status').text('Sandi sedang menyusun jawaban...').show();
+	            $osanSection.find('.osan-skeleton').show();
+	        }
+
+	        function showOsanAnswer() {
+	            if (hasReceivedChunkText) {
+	                return;
+	            }
+
+	            hasReceivedChunkText = true;
+	            $osanSection.show();
+	            $osanSection.find('.osan-status').hide();
+	            $osanSection.find('.osan-skeleton').hide();
+	            $osanSection.find('.summary').show();
+	        }
+
+        function parseOsanStreamEvent(rawEvent) {
+            let eventName = null;
+            let dataLines = [];
+            let plainLines = [];
+
+            rawEvent.split(/\r?\n/).forEach(function (line) {
+                if (!line.trim()) {
+                    return;
+                }
+
+                if (line.indexOf('event:') === 0) {
+                    eventName = line.substring(6).trim();
+                    return;
+                }
+
+                if (line.indexOf('data:') === 0) {
+                    dataLines.push(line.substring(5).trim());
+                    return;
+                }
+
+                plainLines.push(line.trim());
+            });
+
+            const payloadText = dataLines.length
+                ? dataLines.join('\n')
+                : plainLines.join('\n');
+
+            if (!payloadText || payloadText === '[DONE]') {
+                return payloadText === '[DONE]'
+                    ? { type: 'done', data: {} }
+                    : null;
+            }
+
+            try {
+                const parsed = JSON.parse(payloadText);
+                const type = eventName || parsed.type || parsed.event || Object.keys(parsed)[0];
+                const data = eventName
+                    ? parsed
+                    : (parsed.data || parsed[type] || parsed);
+
+                return {
+                    type,
+                    data: data || {}
+                };
+            } catch (error) {
+                return null;
+            }
+        }
+
+        function renderOsanStreamEvent(streamEvent) {
+            if (!streamEvent || !streamEvent.type) {
+                return;
+            }
+
+	            if (streamEvent.type === 'start') {
+	                showOsanThinking();
+
+	                return;
+	            }
+
+            if (
+	                streamEvent.type === 'chunk' &&
+	                streamEvent.data &&
+	                typeof streamEvent.data.text === 'string' &&
+	                (hasReceivedChunkText || streamEvent.data.text.trim())
+	            ) {
+	                showOsanAnswer();
+	                $osanSection
+	                    .find('.summary')
+	                    .append(document.createTextNode(streamEvent.data.text));
+
+                return;
+            }
+
+            if (streamEvent.type === 'metadata') {
+                $osanSection.find('.osan-content').attr({
+                    'data-tokens-used': streamEvent.data.tokensUsed || '',
+                    'data-model-used': streamEvent.data.modelUsed || '',
+                    'data-confidence': streamEvent.data.confidence || ''
+                });
+
+                return;
+            }
+
+            if (streamEvent.type === 'sources') {
+	                const sources = Array.isArray(streamEvent.data)
+	                    ? streamEvent.data
+	                    : (streamEvent.data.sources || [streamEvent.data]);
+
+	                osanSources = osanSources.concat(sources);
+	                const eids = osanSources
+	                    .filter((item) => item && item.source === "pdbi_entry" && item.metadata)
+	                    .map((item) => item.metadata.e_id)
+	                    .filter(Boolean);
+
+	                renderSources(eids);
+	                return;
+	            }
+
+	            if (streamEvent.type === 'done') {
+	                if (!hasReceivedChunkText) {
+	                    $osanSection.hide();
+	                }
+	            }
+        }
+
+        function processOsanStreamBuffer(buffer, forceFlush) {
+            let events = [];
+            let remaining = buffer;
+            const separatorPattern = /\r?\n\r?\n/;
+
+            let match = remaining.match(separatorPattern);
+
+            while (match) {
+                const rawEvent = remaining.substring(0, match.index);
+
+                remaining = remaining.substring(
+                    match.index + match[0].length
+                );
+
+                events.push(rawEvent);
+                match = remaining.match(separatorPattern);
+            }
+
+            if (
+                remaining.indexOf('\n') !== -1 &&
+                remaining.indexOf('event:') === -1 &&
+                remaining.indexOf('data:') === -1
+            ) {
+                const lines = remaining.split(/\r?\n/);
+
+                remaining = forceFlush ? '' : lines.pop();
+                events = events.concat(lines);
+            }
+
+            if (forceFlush && remaining.trim()) {
+                events = events.concat(remaining.split(/\r?\n/));
+                remaining = '';
+            }
+
+            events.forEach(function (rawEvent) {
+                const streamEvent = parseOsanStreamEvent(rawEvent);
+
+                renderOsanStreamEvent(streamEvent);
+            });
+
+            return remaining;
+        }
+
+        function loadOsanSummary() {
+            if (!currentQuery) {
+                $osanSection.hide();
+                return;
+            }
+
+            let processedLength = 0;
+	            let pendingBuffer = '';
+
+	            osanSources = [];
+	            hasReceivedChunkText = false;
+
+	            $osanSection.find('.sources').hide();
+	            $osanSection.find('.sumber').empty();
+	            showOsanThinking();
+	            const randomString = Math.random().toString(36).slice(2);
+            $.ajax({
+                //url: "https://budaya-indonesia.ai/api/chat/stream",
+                url: "/chat/stream",
+                method: 'POST',
+                dataType: 'text',
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    message: currentQuery,
+                    anonymousId: randomString,
+                    _token: CSRF_TOKEN,
+                    options: {
+                        temperature: 0.7
+                    }
+                }),
+                xhr: function () {
+                    const xhr = new window.XMLHttpRequest();
+
+                    xhr.onprogress = function () {
+                        const chunk = xhr.responseText.substring(processedLength);
+
+                        processedLength = xhr.responseText.length;
+
+                        pendingBuffer = processOsanStreamBuffer(
+                            pendingBuffer + chunk,
+                            false
+                        );
+                    };
+
+                    return xhr;
+                },
+                success: function (responseText) {
+                    const lastChunk = (responseText || '').substring(processedLength);
+
+                    processOsanStreamBuffer(
+                        pendingBuffer + lastChunk,
+                        true
+                    );
+
+	                    if (!hasReceivedChunkText) {
+	                        $osanSection.hide();
+	                    }
+	                },
+	                error: function () {
+	                    $osanSection.find('.osan-skeleton').hide();
+	                    $osanSection
+	                        .find('.osan-status')
+	                        .text('Rangkuman OSAN belum bisa dimuat.');
+                }
+            });
+        }
+
+        function renderSources(eids) {
+            if (eids.length > 0) {
+                $.ajax({
+                    url: "/get-entry-cards",
+                    method: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify({
+                        eids,
+                        _token: CSRF_TOKEN,
+                    }),
+                    success: function (data) {
+                        let html = "";
+
+                        data.forEach((item) => {
+                            html += item.html;
+                        });
+	                        $osanSection.find(".sumber").html(html);
+                        $('.sources').show();
+                    },
+                    error: function (xhr, status, error) {
+                        console.error(error);
+                    }
+                });
+            }
+        }
+
+        $(document).ready(function () {
+            loadOsanSummary();            
+        });
+    })(jQueryz);
+</script>
+</body>
+
+</html>

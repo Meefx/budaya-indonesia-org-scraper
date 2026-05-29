@@ -11,7 +11,29 @@ Scraper ini dibagi menjadi dua alur:
 python -m pip install -r requirements.txt
 ```
 
+## Menjalankan RabbitMQ dengan Docker Compose
+
+```bash
+docker compose up -d
+```
+
+Endpoint default:
+
+- AMQP: `amqp://guest:guest@localhost:5672/%2F`
+- Management UI: `http://localhost:15672`
+
+Credential default:
+
+- Username: `guest`
+- Password: `guest`
+
 ## Environment
+
+Copy dulu file contoh env:
+
+```bash
+copy .env.example .env
+```
 
 ```bash
 set MONGO_URI=mongodb://localhost:27017
@@ -22,6 +44,21 @@ set RABBITMQ_URL=amqp://guest:guest@localhost:5672/%2F
 set RABBITMQ_QUEUE=budaya_indonesia.detail
 set CONNECT_TIMEOUT=15
 set READ_TIMEOUT=120
+```
+
+Isi `.env.example`:
+
+```dotenv
+MONGO_URI=mongodb://localhost:27017
+MONGO_DB=budaya_indonesia
+MONGO_LIST_COLLECTION=list_items
+MONGO_DETAIL_COLLECTION=detail_items
+RABBITMQ_URL=amqp://guest:guest@localhost:5672/%2F
+RABBITMQ_QUEUE=budaya_indonesia.detail
+USER_AGENT=Mozilla/5.0 (compatible; budaya-indonesia-scraper/1.0; +https://budaya-indonesia.org)
+LIST_URL_TEMPLATE=https://budaya-indonesia.org/cari?gambar=0&audio=0&video=0&pdf=0&page={page}
+CONNECT_TIMEOUT=15
+READ_TIMEOUT=120
 ```
 
 Timeout default sudah dinaikkan supaya lebih toleran terhadap server yang lambat: koneksi `15s`, read `120s`.

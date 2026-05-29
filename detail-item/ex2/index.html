@@ -1,0 +1,1507 @@
+
+<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="../assets/"
+    data-template="vertical-menu-template-free">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <title>Busana Dramatari Arja &#187; Budaya Indonesia
+</title>
+
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="95G0a4gWmGZ9YS7PTUZ8WAm1mOAtN6e5nL3eb6Qs">
+    <meta name="search-uri" content="https://budaya-indonesia.org/cari?q=%23q">
+    <meta name="search-prov-uri" content="https://budaya-indonesia.org/cari?provinsi=%3Aid">
+    <meta name="login" content="https://budaya-indonesia.org/pengguna/masuk">
+    <meta name="dashboard" content="https://budaya-indonesia.org/admin/dashboard">
+    <meta name="search-suggest-url" content="https://budaya-indonesia.org/api/search-suggest">
+    <meta name="total" content="https://budaya-indonesia.org/totalProvince?id=%23id">
+    <meta name="osan-entry-label" content="">
+
+        <meta name="api-post-reply-uri" content="https://budaya-indonesia.org/api/post-reply">
+    <meta name="entry-id" content="6448">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://budaya-indonesia.org/favicon.ico" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://budaya-indonesia.org/vendor/fonts/boxicons.css" />
+    <!-- Core CSS -->
+    <link rel="stylesheet" href="https://budaya-indonesia.org/css/newpdbi/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="https://budaya-indonesia.org/css/newpdbi/theme-default.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="https://budaya-indonesia.org/css/newpdbi/demo.css" />
+    <link rel="stylesheet" href="https://budaya-indonesia.org/css/newpdbi/custom.css" />
+    <link href="/css/custom-spacing.css" rel="stylesheet">
+    <link href="/css/global.css" rel="stylesheet">
+
+    <!-- Vendors CSS -->
+    <link rel="stylesheet" href="https://budaya-indonesia.org/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+
+    <!-- Page CSS -->
+
+    <!-- Helpers -->
+    <script src="https://budaya-indonesia.org/assets/vendor/js/helpers.js"></script>
+
+    <script src="https://budaya-indonesia.org/assets/vendor/js/config.js"></script>
+
+    <style>
+    .annotation-container[data-osan-show],
+        .annotation-container[data-osan-hide] {
+            padding: 0 !important;
+            line-height: 0 !important;
+            font-size: 0 !important;
+        }
+
+        .annotation-container[data-osan-show] svg,
+        .annotation-container[data-osan-hide] svg {
+            display: block !important;
+        }
+
+        .annotation-container[data-osan-show] image,
+        .annotation-container[data-osan-hide] image {
+            display: block !important;
+        }
+    </style>
+    
+        <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+    <style>
+        .video-js {
+            background-color: #fff;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.css" />
+    <style>
+        table:not(.table-responsive-md) {
+            width: auto !important;
+        }
+        
+        .custom-audio {
+            background-color: transparent;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            width: 100%;
+        }
+        .video-container {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            max-width: 720px;
+        }
+        .overlay-buttons {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 10;
+        }
+        .overlay-buttons a {
+            cursor: pointer;
+            background-color: var(--cs-light, #f8f9fa);
+            border-radius: 8px;
+            padding: 4px;
+        }
+        .overlay-buttons a:hover {
+            background-color: var(--cs-strokeline);
+            color: white;
+        }
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .attachment-border {
+            border: 4px solid var(--cs-strokeline);
+        }
+        .audio-player {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 15px;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        input[type="range"] {
+            flex-grow: 1;
+        }
+
+        h1, h2, h3 {
+            font-size: 24px;
+            line-height: 2.375rem;
+        }
+        h1,h2,h3,h4,h5,h6 {
+            color:black;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light shadow-sm sm-d-none fixed-top" style="background-color: white; height:120px;">
+  <div class="container-xxl position-relative">
+
+    <!-- Centered Brand -->
+    <div class="position-absolute start-50 translate-middle-x">
+      <a class="navbar-brand fw-bold" href="/">
+        <img height="96" src="https://budaya-indonesia.org/img/logotext_beta.png" alt="logo">
+      </a>
+    </div>
+        <!-- Right Side Content -->
+    <div class="ms-auto d-flex gap-2">
+      <form id="searchForm" class="d-flex align-items-center mb-0 position-relative d-none" action="https://budaya-indonesia.org/cari" method="GET" style="top: -3px;">
+        <div class="position-relative w-100">
+          <input class="search-query form-control bg-white" type="search" name="q" id="mQ"
+              value="" aria-label="Cari"
+              placeholder="Cari" onfocus="this.placeholder = ''"
+              onblur="this.placeholder = 'Cari'" 
+              autocomplete="off" 
+              style="padding-top:8px; padding-bottom:8px; padding-left: 35px; border-radius: 12px;">
+          <i class="bx bx-search position-absolute start-0 me-2" style="margin-left:12px; top: 25%;"></i>
+          <div class="dropdown w-100" id="search-suggest">
+            <ul class="dropdown-menu dropdown-search-suggest"></ul>
+          </div>
+        </div>
+      </form>
+
+      <a href="javascript:void(0);" id="searchToggle" style="margin-top:5px;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+          <path d="M28 28L20 20M22.6667 13.3333C22.6667 18.488 18.488 22.6667 13.3333 22.6667C8.17868 22.6667 4 18.488 4 13.3333C4 8.17868 8.17868 4 13.3333 4C18.488 4 22.6667 8.17868 22.6667 13.3333Z" stroke="#637083" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      
+      
+      <!-- Auth Dropdown Trigger (Hamburger or Text) -->
+      <div class="dropdown ms-auto">
+        <button class="navbar-toggler d-flex align-items-center gap-2" style="margin-top:5px;" type="button" id="authDropdown"
+          data-bs-toggle="dropdown" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+              <path d="M5.33325 8H26.6666M5.33325 16H26.6666M5.33325 24H26.6666" stroke="#637083" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </button>
+
+        <!-- Dropdown Menu -->
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="authDropdown" style="
+            border-radius: 12px;
+            min-width: 250px;
+            padding: 16px;">
+                      <li class="mb-2">
+              <a class="btn w-100 btn-outline-dark rounded-pill" href="https://budaya-indonesia.org/pengguna/daftar">Daftar</a>
+            </li>
+
+            <li>
+              <a class="btn w-100 btn-primary btn-primary-black rounded-pill" href="https://budaya-indonesia.org/pengguna/masuk">Masuk</a>
+            </li>
+                  </ul>
+      </div>
+      
+      <a href="https://budaya-indonesia.ai" target="_blank">
+        <div class="d-flex align-items-center gap-2 text-black border rounded-3" style="padding: 4px 8px; border: 1.5px solid #637083 !important; border-radius: 10px !important;">
+          <img src="https://budaya-indonesia.org/img/osan.png" alt="" style="height: 32px;">
+          Obrol Sandi
+        </div>
+      </a>
+    </div>
+      </div>
+</nav>
+
+
+<nav class="navbar navbar-expand-md navbar-light shadow-sm mobile fixed-top" style="background-color: white;">
+    <div class="container-xxl">
+        <!-- Logo -->
+        <a class="navbar-brand" href="/">
+            <img height="50" src="https://budaya-indonesia.org/img/logotext_beta.png" alt="logo">
+        </a>
+
+        <div class="d-flex align-items-center gap-2">
+            
+                            <button class="navbar-toggler d-flex align-items-center gap-2" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarAuth" 
+                    aria-controls="navbarAuth" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" 
+                        viewBox="0 0 32 32" fill="none">
+                        <path d="M5.33331 8H26.6666M5.33331 16H26.6666M5.33331 24H26.6666" 
+                              stroke="#8F969E" stroke-width="2" stroke-linecap="round" 
+                              stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            
+            
+            <a href="https://budaya-indonesia.ai" target="_blank">
+                <img src="https://budaya-indonesia.org/img/osan.png" alt="OSAN" style="height: 32px;">
+            </a>
+        </div>
+
+        
+                    <div class="collapse navbar-collapse" id="navbarAuth">
+                <div class="ms-auto d-flex flex-column flex-md-row align-items-start align-items-md-center gap-2 mt-3 mt-md-0">
+                    <a class="btn w-100 btn-outline-dark rounded-pill" href="https://budaya-indonesia.org/pengguna/daftar">Daftar</a>
+                    <a class="btn w-100 btn-primary btn-primary-black rounded-pill" href="https://budaya-indonesia.org/pengguna/masuk">Masuk</a>
+                </div>
+            </div>
+        
+    </div>
+</nav>
+
+<div class="mobile" style="margin-top: 100;"></div>
+<div class="sm-d-none" style="margin-top: 97px;"></div>
+
+<div class="container-xxl mobile my-4">
+    <form id="searchFormMobile" class="d-flex mb-0 position-relative" action="https://budaya-indonesia.org/cari" method="GET">
+        <div class="position-relative w-100">
+            <input class="search-query-mobile form-control rounded-mid py-3" type="search" name="q" id="dQ"
+                value="" aria-label="Cari Budaya"
+                placeholder="Cari Budaya" onfocus="this.placeholder = ''"
+                onblur="this.placeholder = 'Cari Budaya'" 
+                autocomplete="off" style="padding-left: 35px;"
+                >
+            <i class="bx bx-search position-absolute start-0 ms-3 me-3" style="top: 30%;"></i>
+            <div class="dropdown w-100" id="search-suggest">
+                <ul class="dropdown-menu dropdown-search-suggest-mobile"></ul>
+            </div>
+        </div>
+    </form>
+</div>
+        
+    
+
+<div class="container-xxl py-0 py-md-6">
+    <nav aria-label="breadcrumb" class="my-5">
+        <ol class="breadcrumb d-flex flex-nowrap">
+            <li class="breadcrumb-item flex-shrink-0">
+                <a href="https://budaya-indonesia.org" class="text-primary mb-0">
+                    <svg style="margin-bottom: 2px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path d="M2 8L3.33333 6.66667M3.33333 6.66667L8 2L12.6667 6.66667M3.33333 6.66667V13.3333C3.33333 13.7015 3.63181 14 4 14H6M12.6667 6.66667L14 8M12.6667 6.66667V13.3333C12.6667 13.7015 12.3682 14 12 14H10M6 14C6.36819 14 6.66667 13.7015 6.66667 13.3333V10.6667C6.66667 10.2985 6.96514 10 7.33333 10H8.66667C9.03486 10 9.33333 10.2985 9.33333 10.6667V13.3333C9.33333 13.7015 9.63181 14 10 14M6 14H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Beranda</a>
+            </li>
+            
+                            <li class="breadcrumb-item flex-shrink-0 text-nowrap">
+                    <a class="text-primary"
+                    href="https://budaya-indonesia.org/cari?element=8">
+                        Pakaian Tradisional
+                    </a>
+                </li>
+                        <li class="breadcrumb-item fw-bold text-capitalize"><div class="text-truncate-1">Busana Dramatari Arja</div></li>
+        </ol>
+    </nav>
+  
+    <div class="row">
+        <div class="col-12 col-lg-8 mb-4">
+            <div class="card custom-card">
+                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="d-flex gap-2 flex-wrap">
+                                                        <span class="badge rounded-pill bg-primary-light text-primary-dark p-2">
+                                <img src="https://budaya-indonesia.org/icons/element/v2-pakaian-tradisional.svg" alt="Pakaian Tradisional" style="border: 1px solid #036666; height: 20px; width: 20px; border-radius: 50%">
+                                <div class="d-inline-block fz-10px fz-lg-12px">Pakaian Tradisional</div>
+                            </span>
+                                                                                            <span class="badge rounded-pill bg-primary-light text-primary-dark p-3 fz-10px fz-lg-12px">
+                                                                            Pakaian
+                                                                    </span>
+                                                                                                                                                                                        <span class="badge rounded-pill bg-primary-light text-primary-dark p-3 fz-10px fz-lg-12px">
+                                                                            Bali
+                                                                        </span>
+                                                                                                                            <span class="badge rounded-pill bg-primary-light text-primary-dark p-3 fz-10px fz-lg-12px">
+                                                                            Bali
+                                                                    </span>
+                                                                                        
+                                                    </div>
+
+                        <div class="d-flex gap-2">
+                                                            <a href="https://budaya-indonesia.org/admin/entri/sunting/6448" class="sm-d-none btn btn-outline-secondary rounded-pill px-3">
+                                    <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M12.6935 4.36019L15.6398 7.30647M13.9435 3.11019C14.7571 2.2966 16.0762 2.2966 16.8898 3.11019C17.7034 3.92379 17.7034 5.24288 16.8898 6.05647L5.41667 17.5296H2.5V14.5537L13.9435 3.11019Z"  stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+            
+                                    Sunting
+                                </a>
+                                <div class="mobile">
+                                    <a href="https://budaya-indonesia.org/admin/entri/sunting/6448">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path d="M11 5H6C4.89543 5 4 5.89543 4 7V18C4 19.1046 4.89543 20 6 20H17C18.1046 20 19 19.1046 19 18V13M17.5858 3.58579C18.3668 2.80474 19.6332 2.80474 20.4142 3.58579C21.1953 4.36683 21.1953 5.63316 20.4142 6.41421L11.8284 15H9L9 12.1716L17.5858 3.58579Z" stroke="#8F969E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                                    
+                            <a href="https://budaya-indonesia.org/Busana-Dramatari-Arja/lapor" class="sm-d-none btn btn-outline-secondary rounded-pill px-3">
+                                <svg class="me-2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10 6.66667V10M10 13.3333H10.0083M17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 5.85786 5.85786 2.5 10 2.5C14.1421 2.5 17.5 5.85786 17.5 10Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                
+                                Laporkan
+                            </a>
+                            <div class="mobile">
+                                <a href="https://budaya-indonesia.org/Busana-Dramatari-Arja/lapor">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M12 8V12M12 16H12.01M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#8F969E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                                        
+                    <h5 class="fw-bold mt-5">Busana Dramatari Arja</h5>
+                    <div class="d-flex align-items-center gap-2 text-muted mb-4 flex-wrap">
+                        <div class="d-flex align-items-center gap-2">
+                            <img src="https://pdbifiles.nos.jkt-1.neo.id/profile/1152/Wulan-Bali.jpeg" 
+                                alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                            <p class="fw-bold mb-0" style="font-size: 12px;">
+                                <a class="text-muted" href="https://budaya-indonesia.org/admin/pengguna/akunku/wulan">
+                                    hallowulandari 
+                                </a>
+                            </p>
+                        </div>
+                        <div style="font-size: 13px;"> 
+                            - 18 September 2014
+                                                    </div>
+
+                    </div>
+
+                     <div class="p-2" style="color: black !important;">
+                        <p>
+	Busana didalam dramatari Arja mempunyai arti tertentu, karena</p>
+<p>
+	dpergunakan untuk menunjukkan karakter atau identitas setiap tokoh yang</p>
+<p>
+	ditampilkan. Disamping itu busana juga dapat mempengaruhi segi</p>
+<p>
+	perbendaharaan gerak tarinya. Hiasan kepala adalah satu dari busana</p>
+<p>
+	yang dipakai dalam dramatari tersebut.</p>
+<p>
+	 </p>
+<p>
+	Busana yang dipergunakan dalam</p>
+<p>
+	dramatari Arja dapat dibedakan menjadi dua macam yakni busana tokoh</p>
+<p>
+	putra dan busana tokoh putri.</p>
+<p>
+	 </p>
+<p>
+	<strong>1. Warna</strong></p>
+<p>
+	Penggunaan warna yang diterapkan dalambsuana dramatari Arja</p>
+<p>
+	di Bali mempunyai dua sifat simbolis dan menghias. Sifat simbolis</p>
+<p>
+	penekanannya adalah dengan warna dapat mencerminkan karakter</p>
+<p>
+	kejiwaan dari peran itu sendiri. Misalnya karakter atau peran Rahwana</p>
+<p>
+	yang mempunyai sifat-sifat seperti raksasa, busananya didominasi oleh</p>
+<p>
+	warna merah yang melambangkan nafsu angkara murka. Selain itu warna</p>
+<p>
+	hitam putih (poleng) melambangkan dua kekuatan yang saling</p>
+<p>
+	bertentangan seperti baik dan buruk, siang dan malam, pria dan wanita</p>
+<p>
+	dan lain sebagainya. Konsep ini merupakan konsep keseimbangan didalam</p>
+<p>
+	ajaran agama Hindu yang sering diseut rwa bineda, dua hal yang berbeda</p>
+<p>
+	namun selalu berdampingan. Disamping itu dijelaskan juga didalam</p>
+<p>
+	ajaran agama Hindu bahwa warna hitam dan warna putih bila dilebur</p>
+<p>
+	menjadi satu akan menimbulkan bening. Bening adalah simbol kesucian</p>
+<p>
+	dan keluhuran. Peleburan warna hitam dan warna putih menjadi bening</p>
+<p>
+	memberikan makna kepada kita bahwa apabila kita dapat menyatukan</p>
+<p>
+	atau melebur perasaan suka dan duka, kaya dan miskin, malang</p>
+<p>
+	beruntung,di alam hidup kita ini niscaya ketenangan berada dalam diri kita.</p>
+<p>
+	Ditempatkannya hiasan warna hitam dan putih di Pura atau tempat</p>
+<p>
+	suci dengan maksud agar umat yang datang bersembayang menyatukan</p>
+<p>
+	pikiran dan perasaan, tidak lagi mengandung rwa bineda, namun berada</p>
+<p>
+	dalam ketenangan dan kebersihan hati, sujud dihadapan Tuhan yang</p>
+<p>
+	Maha Esa.</p>
+<p>
+	Apabila warna hitam dan warna putih menjadi simbol rwa bineda,</p>
+<p>
+	maka warna-warna yang diterapkan pada hiasan-hiasan yang</p>
+<p>
+	menggunakan warna dalam pengider-ider, yaitu merah, kuning, hijau,</p>
+<p>
+	jingga, dadu, abu-abu, hitam putih dan panca warna. Setiap warna</p>
+<p>
+	mempunyai arti simbolis sebagai berikut. Merah dipakai sebagai lambang</p>
+<p>
+	Dewa Brahma yang dalam buana agung menurut penjuru angin tempatnya</p>
+<p>
+	dis elatan, sedangkan dalam buana alit atau tubuh manusia tempatnya di</p>
+<p>
+	hati. Dewa Brahma dalam ajaran agama Hindu dianggap sebagai dewa</p>
+<p>
+	yang memberikan kehidupan bagi smeua makhluk hidup yang berjiwa.</p>
+<p>
+	Dalam buku Aggasty Pana dijelaskan bahwa merah atau darah</p>
+<p>
+	rasanya menjadi “atma” =, sebagai unsur pemberi nyawa atau jiwa. Untuk</p>
+<p>
+	kesempurnaan suatu kelahiran atma bersatu dengan daging dan bayu.</p>
+<p>
+	Demi melihat arti simbolis warna merah, apabila dalam suatu upacara</p>
+<p>
+	keagamaan kita melihat sebuah pelinggih didepannya dan dihiasi dengan</p>
+<p>
+	payung ider-ider berwarna merah dapat dipastikan bahwa yang</p>
+<p>
+	bersemayam di tempat itu adalah Dewa Barhma.</p>
+<p>
+	Warna abu-abu adalah warna peralihan atau campuran antara</p>
+<p>
+	warna hitam dan warna putih. Dibuana agung dan pada bentuk-bentuk</p>
+<p>
+	perlengkapan upacara ditempatkan pada arah timur laut, sedangkan pada</p>
+<p>
+	buana alit atau tubuh manusia menurut Aggasty Pana dikatakan</p>
+<p>
+	tempatnya di dubur yang merupakan lambang atau simbol Dewa Hyang</p>
+<p>
+	atau Bumi sebagai tempat berpijak tempat berlangsunbgnya kehidupan</p>
+<p>
+	dan sekaligus sebagai sumber rejeki.</p>
+<p>
+	Hijau merupakan lambang Dewa Sangkara, di buana agung</p>
+<p>
+	menurut pengider-ider pada penjuru mata angin tempatnya di barat laut,</p>
+<p>
+	sedangkan pada tubuh manusia tempatnya di tangan. Warna hijau juga</p>
+<p>
+	merupakan tanda kesuburan. Disimbolaknnya tangan dengan warna hijau</p>
+<p>
+	karena dengan keterampilan yang dimiliki oleh tangan akan</p>
+<p>
+	mendatangkan rejeki dan memberikan kesuburan pada manusianya.</p>
+<p>
+	Dadu merupakan campuran antara warna merah dan warna putih.</p>
+<p>
+	Menurut pengider-ider tempatnya di tenggara berlambang dari Dewa</p>
+<p>
+	Mahesoro. Pada buana alit tempatnya di paru-paru,. Warna dadu juga</p>
+<p>
+	merupakan simbol “kama”, yaitu pertemuan antara darah laki-laki (air mani</p>
+<p>
+	laki-laki disimpulkan dengan warna putih) dan darah perempuan</p>
+<p>
+	(disimpulkan dengan warna merah). Jadi makna warna dadu disini adalah</p>
+<p>
+	sebagai gambaran terjaidnya awal mula proses kehidupan sebelum lahir.</p>
+<p>
+	Kuning adalah lambang Dewa Mahadewa (dewa tertinggi).</p>
+<p>
+	Tempatnya di buana agung adalah arah barat, sedangkan buana alit</p>
+<p>
+	tempatnya di buah pinggang. Warna kuning memberi warna keagungan</p>
+<p>
+	dan kebesaran Tuhan. Dalam ragam hias Bali, terutama seni bangunan</p>
+<p>
+	yang bertahtakan ukir-ukiran, warna yang paling banyak digunakan</p>
+<p>
+	adalahw arna kuning, begitu juga pada tokoh-tokoh pewayangan yang</p>
+<p>
+	digambarkan memiliki jiwa-jiwa yang agung seperti tokoh-tokoh raja,</p>
+<p>
+	ksatria, yang busana dan mahkotanya seluruh bentuknya dipulas dengan</p>
+<p>
+	warna kuning atau warna emas. Mengingat tempat-tempat pemujaan</p>
+<p>
+	dilambangkan sebagai tempat bersemayamnya dewa-dewa, untuk</p>
+<p>
+	menimbulkan kesan keagungan pada dewa yang bersemayam disana.</p>
+<p>
+	Selain di tempat-tempat pemujaan warna kuning atau warna emas juga</p>
+<p>
+	banyak dipakai pada bangunan-bangunan di lingkungan istana-istana raja.</p>
+<p>
+	Fungsinya tetap sama, yaitu sebagai simbol keagungan raja-raja. Pada</p>
+<p>
+	bangunan-bangunan umum dan bangunan-bangunan perumahan rakyat</p>
+<p>
+	jarang ditemukan warna kuning emas. Itu mungkin disebabkan dilarang</p>
+<p>
+	oleh pihak kerajaan karena dapat dikatakan mau menyaingi keagungan raja disamping saat itu warna kuning emas terlalu</p>
+<p>
+	mahal yang mungkin tidak terjangkau oleh daya beli rakyat. Demikian</p>
+<p>
+	besar makna warna kuning melekat di hati masyarakat Bali sehingga</p>
+<p>
+	mereka sangat hati-hati menempatkan warna kuning emas itu.</p>
+<p>
+	Jenar (jinga) menjadi pelambang Dewa Rdra. Menurut pengiderider</p>
+<p>
+	di buana agung tempatnya di barat daya, sedangkan di buana alit</p>
+<p>
+	tempatnya di usus. Warna jenar mengandung makna kebesaran jiwa dan</p>
+<p>
+	keterbukaan, yaitu keterbukaan menerima saran dan ilmu pengetahuan</p>
+<p>
+	dan kecerahan akan masa depan.</p>
+<p>
+	Dari kesemua jenis dan bentuk ragam hias tradisional yang ada di</p>
+<p>
+	Bali tertama yang bertata warna, bila ditinjau atau diulas berdasarkan ilmu</p>
+<p>
+	warna seperti yang dipelajari dalam desain mislanya, niscaya kita akan</p>
+<p>
+	menemukan ketidakcocokan antara hubungan warna yang satu dengan</p>
+<p>
+	yang lain sebab penempatan warna pada ragam hias Bali disamping</p>
+<p>
+	memang didasari oleh selera keindahan masyarakat lokal dan yang lebih</p>
+<p>
+	penting lagi harus memenuhi tata warna keagamaan yang diatur dalam</p>
+<p>
+	pengider-ider (Sika, 1983:36-46).</p>
+<p>
+	Penafsiran lain dalam busana-busana yang digunakan dalam</p>
+<p>
+	dramatari merupakan tanda dari kedinamisan. Melihat gerak tari, desain</p>
+<p>
+	busana , ragam hias dan warna yang dipakai dalam busana dan lebih-lebih</p>
+<p>
+	mendengarkan musik, tembang dari dramatari tersebut sungguh</p>
+<p>
+	terkesan sangat meriah dan menyatu dalam kedinamisannya.</p>
+<p>
+	Dilihat dari cerita yang diangkat didalam dramatari Arja seperti</p>
+<p>
+	cerita Ramayana , Panji, rakyat, cina dan lain sebagainya, juga tidak</p>
+<p>
+	menutup kemungkinan kalau warna merupakan tanda darikebesaran rajaraja.</p>
+<p>
+	Semua ini dapat dilihat pada warna emas atau prada yang serba</p>
+<p>
+	gemerlapan. Pada zaman dahulu kain prada merpakan kain yang paling</p>
+<p>
+	digemari oleh para raja dan para bangsawan karena warnanya yang</p>
+<p>
+	gemerlap. Namun pada masa kini kain prada banyak digunakans ebagai</p>
+<p>
+	busana tari sebab warna yang gemerlap sangat cocok dengan jiwa yang</p>
+<p>
+	dinamis tarian Bali, lebih-lebih jika disinari dengan lampu penerang kain ini</p>
+<p>
+	elihatan sangat teatrikal.</p>
+<p>
+	Keyakinan orang terhadap warna yang dipakai atau dikenakan</p>
+<p>
+	paling tidak akan membuat penampilan lebih percaya diri. Dengan warna</p>
+<p>
+	terkadang orang bisa menilai karakter atau pribadi seseorang walau hanya</p>
+<p>
+	sepintas. Namun dalam busana dramatari Arja penafsiran lain dari warna</p>
+<p>
+	yaitu mempunyai tujuan untuk mengalihkan perhatian penonton agar tidak</p>
+<p>
+	terjadi kejenuhan, mengingat drama tari ini didalam pertunjukannya</p>
+<p>
+	memakan waktu sekitar 6-8 jam. Dengan rentang waktu yang cukup</p>
+<p>
+	panjang jika penonton hanya mengikuti alur cerita dari pertunjukan</p>
+<p>
+	tersebut tanpa ada perhatian lain selain alur cerita yang dilantunkan lewat</p>
+<p>
+	tembang, penonton paling tidak akan merasakan bosan dengan</p>
+<p>
+	dihadapkannya penonton pada busana yang memainkan berbagai aksen</p>
+<p>
+	warna sehingga menimbulkan kesan gemerlap disamping juga dapat</p>
+<p>
+	merepresentasikan pengkarakteran dari masing-masing tokoh terhadap</p>
+<p>
+	peran yang dimainkan. Dengan demikian dinamika dari pertunjukan</p>
+<p>
+	dramatari Arja berul-betul mempunyia daya tarik tersendiri. Warna adalah</p>
+<p>
+	komponen yang sangat kuat dari busana tari yang dapat memberikan</p>
+<p>
+	pengaruh visual yang kuat kepada penonton serta dapat menimbulkan</p>
+<p>
+	reaksi emosi penonton.</p>
+<p>
+	 </p>
+<p>
+	<strong>2. Design Busana</strong></p>
+<p>
+	Berbicara masalah design busana dalam Dramatari Arja, tentu tidak</p>
+<p>
+	lepas dengan ciri-ciri pokok dalam seni. Menurut The Liang Gie ada 5 ciriciri</p>
+<p>
+	pokok dan ciri-ciri tersebut sebagai brikut :</p>
+<p>
+	<strong>a. Sifat kreatif dari seni.</strong> Seni yang sesungguhnya senantiasa kreatif,</p>
+<p>
+	selalu menghasilkan sesuatu yang baru. Seni sebagai suatu rangkaian</p>
+<p>
+	kegiatan manusia selalu menciptakan suatu realitas yang baru, sesuatu</p>
+<p>
+	apapun salah satunya adalah ragam hias yang tadinya belum ada atau</p>
+<p>
+	belum pernah muncul dalam gagasan seseorang. Demikian juga suatu</p>
+<p>
+	design dari busana Dramatari Arja adalah design yang dalam proses</p>
+<p>
+	penciptaannya mempunyai kekreatifan tersendiri. Ini bisa dilihat dari</p>
+<p>
+	penyusunan warna, ragam hias dan sampai kepada design busana</p>
+<p>
+	tersebut. Dengan adanya design seperti sekarang ini, muncul kesan yang</p>
+<p>
+	memberikan tanda bahwa design semacam itu merupakan tanda</p>
+<p>
+	kebesaran dari raja-raja atau mengingatkan kita akan masa jaya-jayanya</p>
+<p>
+	kerajaan di Zaman dahulu. Tanda ini bisa dilihat pada Gelungannya atau</p>
+<p>
+	Irah-irahan yang dikenakan oleh tokoh-tokoh yang diperankannya.</p>
+<p>
+	Disamping itu, jika melihat design busana tokoh putra juga dapat</p>
+<p>
+	memberikan kesan bahwa laki-laki itu cenderung pada sifat ke maskulin,</p>
+<p>
+	kesederhanaan, dan kebebasan. Semua ini bisa kita lihat pada jaler,</p>
+<p>
+	setewel, kancut, baju, sabuk, kancing, badong, dan yang paling</p>
+<p>
+	mengesankan yaitu penggunaan saputnya yang ditopang oleh keris yang</p>
+<p>
+	diselipkan pada punggung sebelah kanan. Dengan demikian saput yang</p>
+<p>
+	sudah terdesign demikian seperti ada aksen warna dari kain kemudian</p>
+<p>
+	ragam hias yang dicat dengan prada akan memperkuat kesan seperti</p>
+<p>
+	yang telah disebutkan di atas. Sdsalah satu darii desgn tersebut ada yang</p>
+<p>
+	dijulurkka ke bawah sebagai contoh kancut misalkan, dan itu merupakan</p>
+<p>
+	tanda bahwa laki-laki itu mempunyai atau ada dari bagian tubuhnyayang</p>
+<p>
+	menjulur ke bawah. Berbeda halnya dengan design busana yang</p>
+<p>
+	dipernkan oleh penari putri. Tampak design tersebut menonjolkan bagianbagian</p>
+<p>
+	keindahan dari wanita seperti pingang yang kelihatan sangat</p>
+<p>
+	ramping setelahs etagen atau sabuk prada itu melilit dari pinggang sampai</p>
+<p>
+	menutupi buah dada penari putri tersebut. Melihat design kain yang</p>
+<p>
+	dipakai memebrikan tanda bahwa seorang perempuan cenderung</p>
+<p>
+	feminim, seperti cara berjalannya diibaratkan dalam istilah jawa yaitu</p>
+<p>
+	seperti macan luwe karena design kain yang memanjang ke bawah dan</p>
+<p>
+	tersisa sampai ke belakang. Dengan kain semacam itu berjalan menjadi</p>
+<p>
+	tidak cepat, keleluasaan didalam bergerak juga sangat terbatas. Kesusian</p>
+<p>
+	design ersebut jika dihuungkan dengan lekuk tubuh wanita sungguh</p>
+<p>
+	memberikan kesan yang sangat dinamis dan mengandung suatu</p>
+<p>
+	keindahan yang mendalam.</p>
+<p>
+	<strong>b. Seni individual,</strong> terikat pada perseorangan dalam penciptaan maupun</p>
+<p>
+	penikmatnya. Pengalaman estetis dalam mengamati suatu karya seni</p>
+<p>
+	adalah pengalaman dari masing-masing individu yang bisa sama tetapi</p>
+<p>
+	bisa juga berbeda. menurut pendapat filsuf Polandia, bahwa keberadaan</p>
+<p>
+	seni terdiri dari tiga faktor yang berlainan tetapi saling bergantung yaitu</p>
+<p>
+	seniman, karya seni dan pemirsa (Stefan Morawski dalam The Liang Gie,</p>
+<p>
+	1996:43). Beranjak dari pernyataan tersebut, design busana dramaari Arja</p>
+<p>
+	tidak lepas dari pendeign, hasil karyanya dan yang mengamati hasil karya</p>
+<p>
+	tersebut ataupenonton jika itu sudah dalam pertunjukan. Berbicara tentang</p>
+<p>
+	design busana Dramatari Arja, mengingatkan kita kepada perkembangan</p>
+<p>
+	Dramatari tersebut. Dramatari Arja merupakan perkembangan Dramatari</p>
+<p>
+	Gambuh yaitu Dramatari yang dianggap paling tua di Bali, yang</p>
+<p>
+	mendapat pengaruh yang cukup besar dari Jawa Timur yaitu kerajaan</p>
+<p>
+	Majapahit. Dikatakan juga bahwa Gambuh diciptakan oleh Sri Udayana</p>
+<p>
+	dengan meramu materi gerak tari Jawa dan Bali (Soedarsono, 1979:10).</p>
+<p>
+	Hubugan antara Bali dan Jawa memuncak setelah kejatuhan Majapahit ke</p>
+<p>
+	tangan-orang-orang Islam pada permukaan abad 16. Pada masa itu,</p>
+<p>
+	banyak orang Jawa menetap di Bali serta menurunkan</p>
+<p>
+	kesenian mereka dari generasi ke generasi. Elemen-elemen lebudayaan</p>
+<p>
+	Jawa dalam kesenian Bali meliputi sistem tangganada dalam gamelan</p>
+<p>
+	serta penggunaan cerita dan busana dalam Dramatari. Penggunan kain</p>
+<p>
+	dan hiasan kepala banyak “meminjam” dari kesenian Jawa (Bandem,</p>
+<p>
+	1996:16).</p>
+<p>
+	<strong>c. Seni ekspresif</strong> menyangkut perasaan manusia dan karena itu</p>
+<p>
+	penilaiannya juga harus memakai ukuran estetis. Seni adalah bahasa</p>
+<p>
+	perasaan yang melakukan komunikasi diantara seniman dengan pemirsa</p>
+<p>
+	melalui karya seni dengan perasaan juga. Karya seni juga harus ekspresif</p>
+<p>
+	dengan emosi estetis baik suatu kebulatan ataupun masing-masing</p>
+<p>
+	unsurnya. Ahi filsafat seni memperluas perasaan itu dengan pemahaman</p>
+<p>
+	dan nilai walaupun masih dianggap suatu kemungkinan belaka. Dalam</p>
+<p>
+	artikelnya dinyatakans ebagai berikut :</p>
+<p>
+	d. Barangkali penciptaan seni paling umu ditafsirkan sebagai</p>
+<p>
+	pengungkapan atau komunikasi dari perasaan-perasaan atau</p>
+<p>
+	pemahaman-pemahaman atau nlai-nilai yang seniman menemukan</p>
+<p>
+	dalampengalamannya sendiri (Luciana Garvin dalam The Liang Gie,</p>
+<p>
+	1966:4).</p>
+<p>
+	e. Kalau ciri pokok ekspresif tersebut diatas dapat diterima, maka</p>
+<p>
+	penilaian terhadap karysa seni harus dilakukan berdasakan ukuraniukuran</p>
+<p>
+	perasaan estetis dan nilai-nilai estetis. Bagi karya seni tidaklah</p>
+<p>
+	ada pengertian benar atau salah menurut perhitungan akal seperti halnya</p>
+<p>
+	dalam bidang kesusilaan. Dengan demikian penggunaan warna, ragam</p>
+<p>
+	hias dan design merupakan salah satu pengungkapan atau ragam hias</p>
+<p>
+	dari perasaan atau pemahaman atau nilai yang ditemukan olehs eniman</p>
+<p>
+	berdasarkan pengalamnnya.</p>
+<p>
+	f. Seni adalah abadi atau keabadian. Sekali suatu karya seni telah selesai</p>
+<p>
+	diciptakan sebagai suatu realitas baru, karya itu akan tetap langeng</p>
+<p>
+	sepanjang zaman walauun seniman penciptanya sudah tidak ada agi.</p>
+<p>
+	Demikian halnya dengan design busana tari Dramatari Arja masih ada</p>
+<p>
+	sampai sekarang walau penciptanya di zaman itu masih anonim. Namun</p>
+<p>
+	design busana itu masih eksis sampai sekarang bahkan bisa memberikan</p>
+<p>
+	inspirasi untuk pengembangan bsuana-busana tari kreasi.</p>
+<p>
+	g. Seni bersifat semesta. Seni muncul dimana-mana dan tumbuh</p>
+<p>
+	sepanjang masa karena manusia memiliki perasaan dan seni adalah</p>
+<p>
+	bahasanya yang melakukan komunikasi antar manusia dengan perasaan disampingnya dengan bahasa pergauan sehari-hari. jadi karya seni</p>
+<p>
+	diciptakan dan dikembangkan secara universal dan terus menerus di</p>
+<p>
+	seluruh dunia dan tentunya seni mempunyai nilai dan manfaat bagi</p>
+<p>
+	kehidupan manusia. </p>
+<p>
+	(Sumber: Siluh Made Astini. 2011. Harmonia Jurnal Pengetahuan Dan Pemikiran Seni: Makna Dalam Busana Dramatari Arja Di Bali (Meaning In The Arja Dance Drama Costume In Bali). Vol.2 No.2/Mei-Agustus 2001. <a href="http://download.portalgaruda.org/article.php?article=135893&amp;val=5651&amp;title">http://download.portalgaruda.org/article.php?article=135893&amp;val=5651&amp;title</a>= Hal. 20-27)</p>
+                    </div>
+
+                                                                                                                                                                                                                                                                                                                                    <div id="carouselControl" class="carousel mb-4" style="position: relative;">
+                            <div class="carousel-inner br-20 attachment-border" style="background-color: #333333;">
+                                <div class="overlay-buttons d-flex gap-2">
+                                    <a href="javascript:void(0);" id="viewFull">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                            <path
+                                                d="M4.66699 9.33329V4.66663M4.66699 4.66663H9.33366M4.66699 4.66663L10.5003 10.5M23.3337 9.33329V4.66663M23.3337 4.66663H18.667M23.3337 4.66663L17.5003 10.5M4.66699 18.6666V23.3333M4.66699 23.3333H9.33366M4.66699 23.3333L10.5003 17.5M23.3337 23.3333L17.5003 17.5M23.3337 23.3333V18.6666M23.3337 23.3333H18.667"
+                                                stroke="#8F969E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                    <a href="javascript:void(0);" id="editImage">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                            <path
+                                                d="M12.8337 5.83334H7.00033C5.71166 5.83334 4.66699 6.87801 4.66699 8.16667V21C4.66699 22.2887 5.71166 23.3333 7.00033 23.3333H19.8337C21.1223 23.3333 22.167 22.2887 22.167 21V15.1667M20.5171 4.18342C21.4283 3.27219 22.9057 3.27219 23.8169 4.18342C24.7281 5.09464 24.7281 6.57203 23.8169 7.48325L13.8002 17.5H10.5003L10.5003 14.2002L20.5171 4.18342Z"
+                                                stroke="#8F969E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                    <a href="javascript:void(0);" id="detailImage">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                            <path
+                                                d="M24.5 24.5L17.5 17.5M19.8333 11.6667C19.8333 16.177 16.177 19.8333 11.6667 19.8333C7.15634 19.8333 3.5 16.177 3.5 11.6667C3.5 7.15634 7.15634 3.5 11.6667 3.5C16.177 3.5 19.8333 7.15634 19.8333 11.6667Z"
+                                                stroke="#8F969E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+                                    </a>
+                                </div>
+                                                                <div style="height: 500px;" class="br-20 carousel-item active">
+                                    <div class="h-100 d-flex justify-content-center align-items-center">
+                                        <a href="https://pdbifiles.nos.jkt-1.neo.id/files/2014/09/18/wulan_busanatariarja.jpg">
+                                            <img class="h-100" src="https://pdbifiles.nos.jkt-1.neo.id/files/2014/09/18/wulan_busanatariarja.jpg" alt="wulan_busanatariarja.jpg" data-edit-url="https://budaya-indonesia.org/admin/file/8835/edit" data-detail-url="https://budaya-indonesia.org/admin/file/8835">
+                                        </a>
+                                    </div>
+                                </div>
+                                                            </div>
+                                                    </div>
+                    
+                    
+                    
+                                            <div data-pdf="https://pdbifiles.nos.jkt-1.neo.id/files/2014/09/18/wulan_tariarjaBALI.pdf" class="card-pdf relative br-20 bg- attachment-border p-4 mx-auto text-center mb-4" style="max-width: 720px; height: auto; cursor: pointer;">
+                            <div class="overlay-buttons d-flex gap-2">
+                                <a class="file-action-link" href="https://budaya-indonesia.org/admin/file/8845/edit">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                    <path
+                                        d="M12.8337 5.83334H7.00033C5.71166 5.83334 4.66699 6.87801 4.66699 8.16667V21C4.66699 22.2887 5.71166 23.3333 7.00033 23.3333H19.8337C21.1223 23.3333 22.167 22.2887 22.167 21V15.1667M20.5171 4.18342C21.4283 3.27219 22.9057 3.27219 23.8169 4.18342C24.7281 5.09464 24.7281 6.57203 23.8169 7.48325L13.8002 17.5H10.5003L10.5003 14.2002L20.5171 4.18342Z"
+                                        stroke="#8F969E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a class="file-action-link" href="https://budaya-indonesia.org/admin/file/8845">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                                    <path
+                                        d="M24.5 24.5L17.5 17.5M19.8333 11.6667C19.8333 16.177 16.177 19.8333 11.6667 19.8333C7.15634 19.8333 3.5 16.177 3.5 11.6667C3.5 7.15634 7.15634 3.5 11.6667 3.5C16.177 3.5 19.8333 7.15634 19.8333 11.6667Z"
+                                        stroke="#8F969E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="placeholder-glow mx-auto br-20 mb-2" style="width: 200px; height: 277px; margin-top: 5rem; ">
+                                <canvas id="pdf-cover-1"
+                                        class="br-20 bg-secondary placeholder pdf-cover"
+                                        width="200"
+                                        height="277"
+                                        data-getpdf-url="https://budaya-indonesia.org/get-pdf?url=https%3A%2F%2Fpdbifiles.nos.jkt-1.neo.id%2Ffiles%2F2014%2F09%2F18%2Fwulan_tariarjaBALI.pdf"
+                                        style="border: 1px solid #ccc; display: block;"></canvas>
+                            </div>
+                            <p></p>
+                        </div>
+                    
+                                    </div>
+            </div>
+
+        </div>
+        <div class="col-12 col-lg-4 mb-4">
+                            <div class="card custom-card" style="margin-bottom:40px;">
+                    <div class="card-body">
+                        <h4 class="fw-bold">Diskusi</h4>
+                                                <i style="width: 100%">Silahkan masuk untuk berdiskusi.</i>
+                                            </div>
+                </div>
+
+                <div style="margin-bottom:40px;">
+                    <h4 class="fw-bold">Daftar Diskusi</h4>
+                    <div id="discussion-panel">
+                                            </div>
+                </div>
+            
+            <h4 class="fw-bold">Rekomendasi Entri</h4>
+                            <div class="card mt-3 card-entry custom-card" style="border-radius: 20px; min-width: 200px; background-color:#d8efe6;">
+    <div class="card-body" style="padding: 1rem;">
+
+        <div class="d-flex justify-content-start gap-3 gap-lg-4 flex-nowrap">
+            <div class="flex-shrink-0">
+                <img src="https://budaya-indonesia.org/static/bg-400/element-7.png"
+                    alt="Gambar Entri"
+                    class="br-16 entry-thumbnail object-fit-cover">
+            </div>
+            <div class="flex-grow-1 overflow-hidden">
+                <h6 class="text-truncate-1 fw-bold fz-14" style="margin-bottom: 6px;">
+                    <a href="https://budaya-indonesia.org/eksplorasi-seni-ornamen-rumah-gadang-simbolisme-dan-warisan-budaya-minangkabau" class="text-dark stretched-link">
+                        Eksplorasi Seni Ornamen Rumah Gadang: Simbolisme dan Warisan Budaya Minangkabau
+                    </a>
+                </h6>
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                        <div class="rounded-pill bg-primary-100 py-1 d-inline-flex align-items-center gap-1" style="padding: 0 5px; background-color:#f3faf7;">
+                            <img src="https://budaya-indonesia.org/icons/element/v2-ornamen.svg" alt="Ornamen" style="border: 1px solid #036666; height: 12px; width: 12px; border-radius: 50%">
+                            <span class="text-primary-dark fz-10">Ornamen</span>
+                        </div>
+                        <div class="rounded-pill bg-primary-100 py-1 px-2 d-inline-flex align-items-center gap-2 mb-2" style="background-color:#f3faf7;">
+                            <span class="text-primary-dark fz-10">Sumatera Barat</span>
+                        </div>
+                    </div>
+                
+                <p style="margin-bottom: 6px;" class="text-truncate-2 fz-10 sm-text-truncate-2">
+                     Eksplorasi Seni Ornamen Rumah Gadang: Simbolisme dan Warisan Budaya Minangkabau 
+ Identitas dan Asal-Usul 
+ Seni ornamen Rumah Gadang merupakan manifestasi kebudayaan masyarakat Minangkabau yang berfungsi sebagai media penyampaian nilai-nilai filosofis dan tradisi leluhur [S1]. Ornamen ini bukan sekadar elemen dekoratif, melainkan representasi mendalam dari cara hidup dan pandangan dunia suku Minangkabau yang diwariskan secara turun-temurun [S1]. Keberadaannya menjadi jendela utama untuk memahami kekayaan warisan budaya yang melekat pada arsitektur tradisional di wilayah Sumatera Barat [S1]. 
+ Secara konseptual, eksplorasi terhadap seni ornamen ini merupakan upaya penyelidikan dan penemuan pengetahuan baru mengenai simbolisme yang terkandung di dalamnya [S2], [S5]. Kegiatan eksplorasi dalam konteks budaya ini melibatkan proses penjelajahan lapangan untuk memperoleh pemahaman yang lebih komprehensif mengenai bentuk, makna, dan fungsi ornamen tersebut dalam kehidupan masyarakat [S4], [S...
+                </p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="https://budaya-indonesia.org/static/profil_male.gif" 
+                        alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                    <h6 class="mb-0 text-truncate-1 fz-12">
+                        Kianasarayu 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                            <div class="card mt-3 card-entry custom-card" style="border-radius: 20px; min-width: 200px; background-color:#d8efe6;">
+    <div class="card-body" style="padding: 1rem;">
+
+        <div class="d-flex justify-content-start gap-3 gap-lg-4 flex-nowrap">
+            <div class="flex-shrink-0">
+                <img src="https://pdbifiles.nos.jkt-1.neo.id/files/2026/05/22/kianasarayu_hadiri-gala-premiere-lagu-tema-film-timun-mas-in-wonderland-menteri-kebudayaan-dorong-cerita-rakyat-jadi-kekuatan-global-1_1779424524.jpeg"
+                    alt="Gambar Entri"
+                    class="br-16 entry-thumbnail object-fit-cover">
+            </div>
+            <div class="flex-grow-1 overflow-hidden">
+                <h6 class="text-truncate-1 fw-bold fz-14" style="margin-bottom: 6px;">
+                    <a href="https://budaya-indonesia.org/cerita-rakyat-dari-jawa-tengah-kisah-timun-mas" class="text-dark stretched-link">
+                        Cerita Rakyat dari Jawa Tengah: Kisah Timun Mas
+                    </a>
+                </h6>
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                        <div class="rounded-pill bg-primary-100 py-1 d-inline-flex align-items-center gap-1" style="padding: 0 5px; background-color:#f3faf7;">
+                            <img src="https://budaya-indonesia.org/icons/element/v2-cerita-rakyat.svg" alt="Cerita Rakyat" style="border: 1px solid #036666; height: 12px; width: 12px; border-radius: 50%">
+                            <span class="text-primary-dark fz-10">Cerita Rakyat</span>
+                        </div>
+                        <div class="rounded-pill bg-primary-100 py-1 px-2 d-inline-flex align-items-center gap-2 mb-2" style="background-color:#f3faf7;">
+                            <span class="text-primary-dark fz-10">Jawa Tengah</span>
+                        </div>
+                    </div>
+                
+                <p style="margin-bottom: 6px;" class="text-truncate-2 fz-10 sm-text-truncate-2">
+                     Cerita Rakyat dari Jawa Tengah: Kisah Timun Mas 
+ Lead Kisah 
+ Di balik rimbunnya hutan Jawa Tengah, tersimpan sebuah narasi tentang keberanian yang melampaui usia. Kisah ini berpusat pada sosok gadis kecil bernama Timun Mas, yang namanya kini tak hanya dikenal sebagai tokoh dalam buku cerita anak-anak, tetapi telah menjadi bagian dari ingatan kolektif masyarakat Indonesia [S2], [S3]. Ia bukan sekadar karakter fiktif, melainkan simbol perjuangan yang gigih melawan ancaman raksasa yang hendak merenggut kebebasannya [S3], [S4]. 
+ Sebagai bagian dari kekayaan tradisi lisan yang diwariskan turun-temurun, legenda ini memiliki daya pikat yang tak lekang oleh waktu [S1], [S2]. Di wilayah Jawa Tengah, cerita ini sering pula disebut dengan nama Mentimun Emas, sebuah variasi penamaan yang menunjukkan betapa luasnya penyebaran kisah ini dalam berbagai versi di tengah masyarakat [S2], [S5], [S5]. Keberadaannya yang populer membuktikan bahwa narasi tradisional ini tetap hidup dan relevan, bahkan h...
+                </p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="https://budaya-indonesia.org/static/profil_male.gif" 
+                        alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                    <h6 class="mb-0 text-truncate-1 fz-12">
+                        Kianasarayu 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                            <div class="card mt-3 card-entry custom-card" style="border-radius: 20px; min-width: 200px; background-color:#d8efe6;">
+    <div class="card-body" style="padding: 1rem;">
+
+        <div class="d-flex justify-content-start gap-3 gap-lg-4 flex-nowrap">
+            <div class="flex-shrink-0">
+                <img src="https://budaya-indonesia.org/static/bg-400/element-13.png"
+                    alt="Gambar Entri"
+                    class="br-16 entry-thumbnail object-fit-cover">
+            </div>
+            <div class="flex-grow-1 overflow-hidden">
+                <h6 class="text-truncate-1 fw-bold fz-14" style="margin-bottom: 6px;">
+                    <a href="https://budaya-indonesia.org/keris-jawa-lebih-dari-sekadar-senjata-simbol-budaya-dan-pusaka" class="text-dark stretched-link">
+                        Keris Jawa: Lebih dari Sekadar Senjata, Simbol Budaya dan Pusaka
+                    </a>
+                </h6>
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                        <div class="rounded-pill bg-primary-100 py-1 d-inline-flex align-items-center gap-1" style="padding: 0 5px; background-color:#f3faf7;">
+                            <img src="https://budaya-indonesia.org/icons/element/v2-senjata-dan-alat-perang.svg" alt="Senjata dan Alat Perang" style="border: 1px solid #036666; height: 12px; width: 12px; border-radius: 50%">
+                            <span class="text-primary-dark fz-10">Senjata dan Alat Perang</span>
+                        </div>
+                        <div class="rounded-pill bg-primary-100 py-1 px-2 d-inline-flex align-items-center gap-2 mb-2" style="background-color:#f3faf7;">
+                            <span class="text-primary-dark fz-10">Jawa Tengah</span>
+                        </div>
+                    </div>
+                
+                <p style="margin-bottom: 6px;" class="text-truncate-2 fz-10 sm-text-truncate-2">
+                     Keris Jawa: Lebih dari Sekadar Senjata, Simbol Budaya dan Pusaka 
+ Identitas dan Asal-Usul 
+ Keris merupakan pusaka masyarakat Jawa yang memiliki bentuk khas dan makna filosofis mendalam [S1]. Senjata tradisional ini diakui sebagai simbol budaya Nusantara dengan nilai sejarah, seni, dan filosofi yang tinggi [S3]. Keris Jawa secara spesifik merupakan salah satu simbol budaya yang sangat penting dalam sejarah dan tradisi Jawa [S2, S7]. Pengakuan UNESCO terhadap keris sebagai warisan dunia menegaskan statusnya yang berasal dari zaman logam [S4]. 
+ Secara historis, keris tidak hanya berfungsi sebagai senjata tradisional untuk peperangan [S2, C2], tetapi juga sebagai benda pusaka warisan nenek moyang [C3]. Lebih dari itu, keris juga menjadi simbol spiritual, status sosial, dan warisan keluarga [C12]. Keris Jawa sendiri memiliki banyak jenis dengan fungsi dan makna yang berbeda, mencerminkan kekayaan tradisi yang menyertainya [C8]. Keberadaannya juga meluas sebagai alat perlengkapan dalam b...
+                </p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="https://budaya-indonesia.org/static/profil_male.gif" 
+                        alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                    <h6 class="mb-0 text-truncate-1 fz-12">
+                        Kianasarayu 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                            <div class="card mt-3 card-entry custom-card" style="border-radius: 20px; min-width: 200px; background-color:#d8efe6;">
+    <div class="card-body" style="padding: 1rem;">
+
+        <div class="d-flex justify-content-start gap-3 gap-lg-4 flex-nowrap">
+            <div class="flex-shrink-0">
+                <img src="https://pdbifiles.nos.jkt-1.neo.id/files/2026/05/21/kianasarayu_large-lontar-usada-bali-warisan-leluhur-dalam-pengobatan-tradisional-bali-bL9BpJOsiw_1779342813.jpg"
+                    alt="Gambar Entri"
+                    class="br-16 entry-thumbnail object-fit-cover">
+            </div>
+            <div class="flex-grow-1 overflow-hidden">
+                <h6 class="text-truncate-1 fw-bold fz-14" style="margin-bottom: 6px;">
+                    <a href="https://budaya-indonesia.org/lontar-usada-bali-warisan-pengobatan-nusantara-yang-terlupakan" class="text-dark stretched-link">
+                        Lontar Usada Bali: Warisan Pengobatan Nusantara yang Terlupakan?
+                    </a>
+                </h6>
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                        <div class="rounded-pill bg-primary-100 py-1 d-inline-flex align-items-center gap-1" style="padding: 0 5px; background-color:#f3faf7;">
+                            <img src="https://budaya-indonesia.org/icons/element/v2-naskah-kuno-dan-prasasti.svg" alt="Naskah Kuno dan Prasasti" style="border: 1px solid #036666; height: 12px; width: 12px; border-radius: 50%">
+                            <span class="text-primary-dark fz-10">Naskah Kuno dan Prasasti</span>
+                        </div>
+                        <div class="rounded-pill bg-primary-100 py-1 px-2 d-inline-flex align-items-center gap-2 mb-2" style="background-color:#f3faf7;">
+                            <span class="text-primary-dark fz-10">Bali</span>
+                        </div>
+                    </div>
+                
+                <p style="margin-bottom: 6px;" class="text-truncate-2 fz-10 sm-text-truncate-2">
+                     Lontar Usada Bali: Warisan Pengobatan Nusantara yang Terlupakan? 
+ Identitas dan Asal-Usul 
+ Lontar Usada Bali adalah naskah klasik yang mengkategorikan diri dalam ranah pengetahuan dan praktik pengobatan tradisional (usada) di Nusantara [S1], [S3]. Naskah-naskah ini secara spesifik ditulis di atas daun lontar dengan menggunakan aksara dan bahasa Bali Kuna hingga Bali Tengahan [S1]. Kategorinya dalam sistem Warisan Budaya Takbenda Indonesia masuk dalam domain &quot;Pengetahuan dan kebiasaan perilaku mengenai alam dan semesta,&quot; sejalan dengan penetapan praktik serupa seperti Pengobatan Tradisional Raksa Jasad [S2]. 
+ Asal-usul historisnya di Bali seringkali dilekatkan pada periode pengaruh Majapahit dan penyebaran agama Hindu, meskipun sayangnya, belum ada sumber dari daftar yang secara pasti mengungkap waktu dan tokoh awal penciptaan teks-teks ini. Salah satu versi mengaitkan proses kodifikasi dan pengembangan sistem pengobatan ini dengan peran Dang Hyang Nirartha, seorang tokoh...
+                </p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="https://budaya-indonesia.org/static/profil_male.gif" 
+                        alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                    <h6 class="mb-0 text-truncate-1 fz-12">
+                        Kianasarayu 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                            <div class="card mt-3 card-entry custom-card" style="border-radius: 20px; min-width: 200px; background-color:#d8efe6;">
+    <div class="card-body" style="padding: 1rem;">
+
+        <div class="d-flex justify-content-start gap-3 gap-lg-4 flex-nowrap">
+            <div class="flex-shrink-0">
+                <img src="https://budaya-indonesia.org/static/bg-400/element-2.png"
+                    alt="Gambar Entri"
+                    class="br-16 entry-thumbnail object-fit-cover">
+            </div>
+            <div class="flex-grow-1 overflow-hidden">
+                <h6 class="text-truncate-1 fw-bold fz-14" style="margin-bottom: 6px;">
+                    <a href="https://budaya-indonesia.org/kedatuan-luwu-salah-satu-peradaban-tertua-di-sulawesi-selatan-yang-jejak-sejarahnya-berkelindan-erat-dengan-mitolo" class="text-dark stretched-link">
+                        Kedatuan Luwu: Salah satu peradaban tertua di Sulawesi Selatan yang jejak sejarahnya berkelindan erat dengan mitolo
+                    </a>
+                </h6>
+                                    <div class="d-flex flex-column align-items-start gap-1">
+                        <div class="rounded-pill bg-primary-100 py-1 d-inline-flex align-items-center gap-1" style="padding: 0 5px; background-color:#f3faf7;">
+                            <img src="https://budaya-indonesia.org/icons/element/v2-cerita-rakyat.svg" alt="Cerita Rakyat" style="border: 1px solid #036666; height: 12px; width: 12px; border-radius: 50%">
+                            <span class="text-primary-dark fz-10">Cerita Rakyat</span>
+                        </div>
+                        <div class="rounded-pill bg-primary-100 py-1 px-2 d-inline-flex align-items-center gap-2 mb-2" style="background-color:#f3faf7;">
+                            <span class="text-primary-dark fz-10">Sulawesi Selatan</span>
+                        </div>
+                    </div>
+                
+                <p style="margin-bottom: 6px;" class="text-truncate-2 fz-10 sm-text-truncate-2">
+                     Kedatuan Luwu: Salah satu peradaban tertua di Sulawesi Selatan yang jejak sejarahnya berkelindan erat dengan mitolo 
+ Identitas dan Asal-Usul 
+ Kedatuan Luwu diidentifikasi sebagai salah satu peradaban tertua di Sulawesi Selatan, dengan jejak sejarah yang terjalin erat dengan mitologi, tradisi lisan, dan bukti arkeologis [C11]. Sejarah awal Luwu tidak terlepas dari kisah kosmologis mengenai kedatangan manusia pertama ke bumi, yang menjadi dasar pembentukan tatanan sosial dan kekuasaan di wilayah tersebut [C12]. Kedatuan ini merupakan salah satu dari tiga kerajaan Bugis pertama yang tercatat dalam epik  I La Galigo , bersama dengan Wewang Nriwuk dan Tompotikka [S1]. 
+ Pendirian Kedatuan Luwu diperkirakan terjadi pada abad ke-14 [C4], dengan Tumanurung sebagai Datu Mappanjunge' ri Luwu pertama pada tahun 1300-an [C3]. Kedatuan ini berlanjut hingga sekarang [C1], meskipun tidak memiliki mata uang sendiri dan menggunakan sistem barter [C5]. Luwu bersama kerajaan-kerajaan lain diakui sebag...
+                </p>
+
+                <div class="d-flex align-items-center gap-2">
+                    <img src="https://budaya-indonesia.org/static/profil_male.gif" 
+                        alt="avatar" style="height: 20px; width: 20px; border-radius: 50%">
+                    <h6 class="mb-0 text-truncate-1 fz-12">
+                        Kianasarayu 
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+    </div>
+</div>
+    <footer class="bg-primary-dark pt-lg-8">
+    <div class="container-xxl">
+                    <div class="row d-flex flex-wrap align-items-start justify-content-between">
+                <div class="col-12 col-md-auto footer-col-left">
+                    <div class="footer-left d-flex justify-content-start gap-4 mb-4 mb-md-0">
+                        <a class="sosmed me-2" href="#"><img height="72" src="https://budaya-indonesia.org/img/new_logo.png" alt="Logo"></a>
+                        <a class="sosmed me-3" href="#"><img height="72" src="https://budaya-indonesia.org/img/app/logo-SB.png" alt="Logo"></a>
+                        <a class="sosmed" href="http://bandungfe.net/"><img class="bg-white p-2 rounded" height="72" src="https://budaya-indonesia.org/img/app/bandungfe.png" alt="Logo"></a>
+                    </div>
+                </div>
+
+                <div class="footer-right col-12 col-md-auto d-flex flex-column flex-md-row justify-content-between flex-wrap" style="gap: 40px;">
+                    <!-- IACI Links -->
+                    <div>
+                        <div class="mb-3">
+                            <h5 class="mb-2 text-white fw-bold">IACI</h5>
+                            <div class="footer-link-group">
+                                <a href="https://budaya-indonesia.org/IACI" class="mb-1 light-link d-inline-block">Tentang</a>
+                                <a href="https://budaya-indonesia.org/cari?etype=2" class="mb-1 light-link d-inline-block">Berita</a>
+                                <a href="https://budaya-indonesia.org/cari?etype=5" class="mb-1 light-link d-inline-block">Agenda</a>
+                                <a href="https://budaya-indonesia.org/cari?etype=7" class="mb-1 light-link d-inline-block">Jurnal</a>
+                                <div>
+                                    <a href="https://budaya-indonesia.org/feed/entry" class="mb-1 light-link d-inline-block">RSS Feed</a>
+                                    <a href="https://budaya-indonesia.org/feed/diskusi" class="mb-1 light-link d-inline-block">RSS Feed Diskusi</a>
+                                    <a href="https://budaya-indonesia.org/FAQ" class="mb-1 light-link d-inline-block last">FAQ</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+            <hr style="margin-bottom:2rem; margin-top:2rem; border: 1px solid white">
+                <div class="footer-socmed-bottom d-flex justify-content-between">
+            <div class="text-white" style="font-size: 12px;">&copy; 2007 - 2026 Perpustakaan Digital Budaya Indonesia</div>
+            <div class="socmed-right text-center">
+                <a href="mailto:office@budaya-indonesia.org" class="me-4">
+                    <img src="https://budaya-indonesia.org/icons/social/mail.svg" style="width: 24px; height:24px;">
+                </a>
+                <a href="https://x.com/infobudaya" class="me-4">
+                    <img src="https://budaya-indonesia.org/icons/social/x.svg" style="width: 24px; height:24px;">
+                </a>
+                <a href="http://on.fb.me/BudayaIndonesia">
+                    <img src="https://budaya-indonesia.org/icons/social/facebook.svg" style="width: 24px; height:24px;">
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>    <div id="newWebInfo" class="alert alert-success alert-dismissible fade show rounded-10px position-fixed mt-3 me-3 shadow z-1030" role="alert" 
+    style="
+        max-width: 350px; 
+        z-index: 10000; 
+        bottom: 40px;
+        border-radius: 8px;
+        background: var(--primary-pdbi-50, #F3FAF7);
+        color: var(--primary-pdbi-900, #214037);
+        right: 16px;
+    ">
+
+    <div class="fz-12" style="line-height: 18px;">
+        Anda sedang melihat tampilan baru Perpustakaan Digital Budaya Indonesia. Klik <a class="text-primary-dark text-decoration-underline" href="https://versilama.budaya-indonesia.org">tautan</a> ini untuk kembali ke versi lama.
+    </div>
+</div>
+
+
+<!-- Floating Info Icon -->
+<div id="infoIcon" class="floating-info-icon position-fixed m-3 z-1030" style="cursor: pointer; bottom: 6px !important; right: 16px; z-index: 10000;">
+    <svg onclick="toggleInfoAlert()" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="#F3FAF7" stroke="#214037" stroke-width="1.5" >
+      <path d="M13 16H12V12H11M12 8H12.01M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+</div>
+
+<script>
+  function toggleInfoAlert() {
+    const alertBox = document.getElementById('newWebInfo');
+    const icon = document.getElementById('infoIcon');
+
+    if (alertBox.style.display === 'none' || !alertBox.classList.contains('show')) {
+      // Position alert above the icon
+      const iconRect = icon.getBoundingClientRect();
+      alertBox.style.display = 'block';
+      setTimeout(() => alertBox.classList.add('show'), 10);
+    } else {
+      hideInfoAlert();
+    }
+  }
+
+  function hideInfoAlert() {
+    const alertBox = document.getElementById('newWebInfo');
+    alertBox.classList.remove('show');
+    setTimeout(() => {
+      alertBox.style.display = 'none';
+    }, 200);
+  }
+</script>
+
+    <!-- Core JS -->
+    <!-- build:js assets/vendor/js/core.js -->
+    <script src="https://budaya-indonesia.org/assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="https://budaya-indonesia.org/assets/vendor/libs/popper/popper.js"></script>
+    <script src="https://budaya-indonesia.org/assets/vendor/js/bootstrap.js"></script>
+    <script src="https://budaya-indonesia.org/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+    <script src="https://budaya-indonesia.org/assets/vendor/js/menu.js"></script>
+    <!-- endbuild -->
+
+    <!-- Vendors JS -->
+
+    <!-- Main JS -->
+    <script src="https://budaya-indonesia.org/assets/vendor/js/main.js"></script>
+
+    <!-- Page JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script>
+
+    <script src="https://budaya-indonesia.org/js/typeahead.jquery.min.js"></script>
+    <script src="https://budaya-indonesia.org/js/bootstrap3-typeahead.min.js"></script>
+
+    
+            <script src="https://budaya-indonesia.org/js/search-suggest.js?v=1748927967"></script>
+            <script src="https://budaya-indonesia.org/js/helper.js?v=1776417263"></script>
+        
+    
+
+    <script>
+        $(document).ready(function () {
+            $('#searchToggle').on('click', function () {
+                $('#searchForm').toggleClass('d-none');
+            });
+        });
+    </script>
+
+    
+    <script>
+        $(document).ready(function(){
+            var counter = 0;
+            function updateUIState(){
+                $('[id^="text-twit"]').hide().eq(++counter % 5).show();
+                initTimeout();
+            }
+
+            function initTimeout(){
+                setTimeout(updateUIState, 5000)
+            }
+
+            var mcounter = 0;
+            function mupdateUIState(){
+                $('[id^="text-twit-m"]').hide().eq(++mcounter % 5).show();
+                minitTimeout();
+            }
+
+            function minitTimeout(){
+                setTimeout(mupdateUIState, 5000)
+            }
+
+            initTimeout();
+            minitTimeout();
+            
+            window.CSRF_TOKEN = $('meta[name=csrf-token]').attr('content');
+            window.BUDI = {
+                max_file_upload: 500000,
+                allowed_ext: 'jpg, jpeg, png, gif, bmp, mp4, mp3, mpeg, avi, pdf',
+                month_names: [
+                                        "Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"
+                ]
+            };
+            
+            window.BUDI.dateToLong = function(date, withTime) {
+                date = new Date(date);
+                let day = date.getDate();
+                day = day.toString();
+                day = day.length < 2 ? '0' + day : day;
+                let monthIndex = date.getMonth();
+                let year = date.getFullYear();
+                let time = date.toTimeString().split(' ')[0];
+                date = day + ' ' + BUDI.month_names[monthIndex] + ' ' + year;
+                if (withTime) {
+                    return `${date} ${time}`;
+                } else {
+                    return date;
+                }
+            };
+            function myTrim(x) {
+                return x.replace(/^\s+|\s+$/gm,'');
+            }
+        })
+    </script>
+
+        <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.4.1/video.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.js"></script>
+    <script src="https://budaya-indonesia.org/app/website/detail-entri.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+
+    <script>
+        const updateBackground = (el) => {
+            const min = el.min ? el.min : 0;
+            const max = el.max ? el.max : 100;
+            const val = el.value;
+
+            const percentage = ((val - min) * 100) / (max - min);
+            el.style.background = `linear-gradient(to right, var(--cs-primary) 0%, var(--cs-primary) ${percentage}%, var(--cs-light) ${percentage}%, var(--cs-light) 100%)`;
+        }
+    
+        const setPdfCover = (canvas) => {
+            const url = canvas.getAttribute('data-getpdf-url');
+            const ctx = canvas.getContext('2d');
+            const pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+            pdfjsLib.getDocument({ url, disableRange: true }).promise.then(pdf => {
+                return pdf.getPage(1);
+            }).then(page => {
+                $('.placeholder-glow').removeClass('placeholder-glow');
+                canvas.classList.remove('placeholder');
+                // Get canvas container size
+                const containerWidth = canvas.clientWidth;
+                const containerHeight = canvas.clientHeight;
+
+                // Get original size of the page at scale 1
+                const viewport = page.getViewport({ scale: 1 });
+
+                // Calculate scale to fit container
+                const scaleX = containerWidth / viewport.width;
+                const scaleY = containerHeight / viewport.height;
+                const scale = Math.min(scaleX, scaleY); // Maintain aspect ratio
+
+                const scaledViewport = page.getViewport({ scale });
+
+                // Set canvas size based on scaled viewport
+                canvas.width = scaledViewport.width;
+                canvas.height = scaledViewport.height;
+
+                const renderContext = {
+                    canvasContext: ctx,
+                    viewport: scaledViewport
+                };
+                return page.render(renderContext).promise;
+            }).catch(error => {
+                console.error('Error rendering PDF:', error);
+            });
+        }
+        
+        const formatTime = (seconds) => {
+            const min = Math.floor(seconds / 60);
+            const sec = Math.floor(seconds % 60).toString().padStart(2, '0');
+            return `${min}:${sec}`;
+        }
+        
+        const getCarouselActiveData = () => {
+            const carousel = $('#carouselControl');
+            const activeItem = carousel.find('.carousel-item.active');
+
+            const imgSrc = activeItem.find('img').attr('src');
+            const editUrl = activeItem.find('img').data('edit-url');
+            const detailUrl = activeItem.find('img').data('detail-url');
+
+            return {
+                imgSrc,
+                editUrl,
+                detailUrl
+            };
+        }
+        
+        $(document).ready(function() {
+            $('#viewFull').on('click', function() {
+                const {imgSrc} = getCarouselActiveData();
+                window.location.href = imgSrc;
+            });
+            $('#editImage').on('click', function() {
+                const {editUrl} = getCarouselActiveData();
+                window.location.href = editUrl;
+            });
+            $('#detailImage').on('click', function() {
+                const {detailUrl} = getCarouselActiveData();
+                window.location.href = detailUrl;
+            });
+
+            // Set PDF cover for each canvas
+            $('.pdf-cover').each(function() {
+                setPdfCover(this);
+            });
+
+            $('.card-pdf').click(function(event) {
+                if (!$(event.target).closest('.file-action-link').length) {
+                    const url = $(this).data('pdf');
+                    window.open(url, '_blank');
+                }
+            });
+
+            const players = document.querySelectorAll('.audio-player');
+            let currentAudio = null;
+            players.forEach(player => {
+                const audio = player.querySelector('audio');
+                const playBtn = player.querySelector('.playPauseBtn');
+                const seekBar = player.querySelector('.seekBar');
+                const currentTimeEl = player.querySelector('.currentTime');
+                const durationEl = player.querySelector('.duration');
+
+                 // Force audio to load metadata
+                audio.preload = 'metadata';
+                audio.load();
+                seekBar.value = 0;
+                updateBackground(seekBar);
+                
+                audio.addEventListener('loadedmetadata', () => {
+                    audio.currentTime = 0; // ensure it starts at zero
+                    currentTimeEl.textContent = formatTime(0); // update the display
+                    durationEl.textContent = formatTime(audio.duration);
+                    seekBar.value = 0;
+                    updateBackground(seekBar);
+                });
+
+                // Update seek bar
+                audio.addEventListener('timeupdate', () => {
+                    seekBar.value = (audio.currentTime / audio.duration) * 100;
+                    currentTimeEl.textContent = formatTime(audio.currentTime);
+                    updateBackground(seekBar);
+                });
+
+                // Play/pause button
+                playBtn.addEventListener('click', () => {
+                    // Pause previous audio
+                    if (currentAudio && currentAudio !== audio) {
+                        currentAudio.pause();
+                        const prevBtn = [...players].find(p => p.querySelector('audio') === currentAudio)?.querySelector('.playPauseBtn');
+                        if (prevBtn) prevBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="color: #0F172A;">
+                                                            <path fill-rule="evenodd" d="M6.75 5.25a.75.75 0 0 1 .75-.75H9a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-.75.75H7.5a.75.75 0 0 1-.75-.75V5.25Zm7.5 0A.75.75 0 0 1 15 4.5h1.5a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-.75.75H15a.75.75 0 0 1-.75-.75V5.25Z" clip-rule="evenodd" />
+                                                        </svg>`;
+                    }
+
+                    if (audio.paused) {
+                        audio.play();
+                        playBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="color: #0F172A;">
+                                                <path fill-rule="evenodd" d="M6.75 5.25a.75.75 0 0 1 .75-.75H9a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-.75.75H7.5a.75.75 0 0 1-.75-.75V5.25Zm7.5 0A.75.75 0 0 1 15 4.5h1.5a.75.75 0 0 1 .75.75v13.5a.75.75 0 0 1-.75.75H15a.75.75 0 0 1-.75-.75V5.25Z" clip-rule="evenodd" />
+                                            </svg>`;
+                        currentAudio = audio;
+                    } else {
+                        audio.pause();
+                        playBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" style="color: #0F172A;">
+                                            <path fill-rule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clip-rule="evenodd" />
+                                            </svg>`;
+                    }
+                });
+
+                // Seek bar interaction
+                seekBar.addEventListener('input', () => {
+                    audio.currentTime = (seekBar.value / 100) * audio.duration;
+                    updateBackground(seekBar);
+                });
+
+                // Reset play button when audio ends
+                audio.addEventListener('ended', () => {
+                    playBtn.innerHTML = `<i class="bx bx-play" style="font-size: 48px; color: #0F172A;"></i>`;
+                });
+            });
+        });
+    </script>
+    
+
+</body>
+
+</html>
