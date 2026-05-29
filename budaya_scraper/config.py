@@ -3,6 +3,11 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass
 
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
 
 DEFAULT_LIST_URL_TEMPLATE = (
     "https://budaya-indonesia.org/cari?gambar=0&audio=0&video=0&pdf=0&page={page}"

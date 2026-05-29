@@ -11,6 +11,10 @@ from .services import DetailScraperService, ListScraperService
 def configure_logging(verbose: bool) -> None:
     level = logging.DEBUG if verbose else logging.INFO
     logging.basicConfig(level=level, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
+    if not verbose:
+        logging.getLogger("pika").setLevel(logging.WARNING)
+        logging.getLogger("pymongo").setLevel(logging.WARNING)
+        logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 
 def build_parser() -> argparse.ArgumentParser:

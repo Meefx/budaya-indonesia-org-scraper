@@ -11,6 +11,8 @@ Scraper ini dibagi menjadi dua alur:
 python -m pip install -r requirements.txt
 ```
 
+File `.env` sekarang otomatis dibaca saat scraper dijalankan.
+
 ## Menjalankan RabbitMQ dengan Docker Compose
 
 ```bash
@@ -33,17 +35,6 @@ Copy dulu file contoh env:
 
 ```bash
 copy .env.example .env
-```
-
-```bash
-set MONGO_URI=mongodb://localhost:27017
-set MONGO_DB=budaya_indonesia
-set MONGO_LIST_COLLECTION=list_items
-set MONGO_DETAIL_COLLECTION=detail_items
-set RABBITMQ_URL=amqp://guest:guest@localhost:5672/%2F
-set RABBITMQ_QUEUE=budaya_indonesia.detail
-set CONNECT_TIMEOUT=15
-set READ_TIMEOUT=120
 ```
 
 Isi `.env.example`:
