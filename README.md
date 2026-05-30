@@ -50,9 +50,11 @@ USER_AGENT=Mozilla/5.0 (compatible; budaya-indonesia-scraper/1.0; +https://buday
 LIST_URL_TEMPLATE=https://budaya-indonesia.org/cari?gambar=0&audio=0&video=0&pdf=0&page={page}
 CONNECT_TIMEOUT=15
 READ_TIMEOUT=120
+GATEWAY_TIMEOUT_SLEEP_SECONDS=180
 ```
 
 Timeout default sudah dinaikkan supaya lebih toleran terhadap server yang lambat: koneksi `15s`, read `120s`.
+Kalau situs mengembalikan `HTTP 504`, scraper akan sleep selama `180` detik lalu retry URL yang sama.
 
 ## Menjalankan scraper list
 

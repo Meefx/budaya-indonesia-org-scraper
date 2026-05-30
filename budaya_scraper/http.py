@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import time
 from typing import Optional
 
 import requests
@@ -24,8 +25,24 @@ class HttpClient:
         )
 
     def get_text(self, url: str) -> str:
-        LOGGER.info("GET %s", url)
-        response = self.session.get(url, timeout=self.settings.timeout)
-        response.raise_for_status()
-        response.encoding = response.encoding or response.apparent_encoding or "utf-8"
-        return response.text
+        attempt = 1
+        while True:
+            LOGGER.info("GET %s", url)
+            response = self.session.get(url, timeout=self.settings.timeout)
+            try:
+                response.raise_for_status()
+            except requests.HTTPError:
+                if response.status_code == 504:
+                    sleep_seconds = self.settings.gateway_timeout_sleep_seconds
+                    LOGGER.warning(
+                        "HTTP 504 untuk %s pada attempt=%s. Sleep %.0f detik lalu retry.",
+                        url,
+                        attempt,
+                        sleep_seconds,
+                    )
+                    attempt += 1
+                    time.sleep(sleep_seconds)
+                    continue
+                raise
+            response.encoding = response.encoding or response.apparent_encoding or "utf-8"
+            return response.text

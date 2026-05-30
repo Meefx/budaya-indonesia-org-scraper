@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from datetime import datetime, timezone
 from typing import Any
 
@@ -47,3 +48,18 @@ class MongoRepository:
                 }
             },
         )
+
+    def get_scraped_list_pages(self) -> set[int]:
+        pages: set[int] = set()
+        cursor = self.list_collection.find(
+            {"source_page_url": {"$type": "string"}},
+            {"source_page_url": 1, "_id": 0},
+        )
+        for document in cursor:
+            source_page_url = document.get("source_page_url")
+            if not source_page_url:
+                continue
+            match = re.search(r"[?&]page=(\d+)", source_page_url)
+            if match:
+                pages.add(int(match.group(1)))
+        return pages

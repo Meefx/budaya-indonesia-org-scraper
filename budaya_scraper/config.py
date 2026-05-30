@@ -28,6 +28,7 @@ class Settings:
     )
     connect_timeout: float = float(os.getenv("CONNECT_TIMEOUT", "15"))
     read_timeout: float = float(os.getenv("READ_TIMEOUT", "120"))
+    gateway_timeout_sleep_seconds: float = float(os.getenv("GATEWAY_TIMEOUT_SLEEP_SECONDS", "180"))
     list_url_template: str = os.getenv("LIST_URL_TEMPLATE", DEFAULT_LIST_URL_TEMPLATE)
 
     @property
