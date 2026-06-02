@@ -89,7 +89,7 @@ def main() -> int:
         if not urls:
             parser.error("detail membutuhkan --url atau --url-file")
         for url in urls:
-            service.scrape_detail_url(url)
+            service.scrape_detail_url_safe(url)
         return 0
 
     if args.command == "detail-worker":
