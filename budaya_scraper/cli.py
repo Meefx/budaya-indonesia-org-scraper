@@ -38,6 +38,11 @@ def build_parser() -> argparse.ArgumentParser:
     )
     missing_parser.add_argument("--total-pages", type=int, default=6519)
 
+    subparsers.add_parser(
+        "missing-detail-links",
+        help="Tampilkan detail_url dari list_items yang belum ada di detail_items",
+    )
+
     subparsers.add_parser("detail-worker", help="Consume RabbitMQ lalu scrape detail")
     return parser
 
@@ -105,6 +110,16 @@ def main() -> int:
             return 0
         for page_range in missing_ranges:
             print(page_range)
+        return 0
+
+    if args.command == "missing-detail-links":
+        repository = MongoRepository(settings)
+        missing_links = repository.get_missing_detail_links()
+        if not missing_links:
+            print("Semua link di list_items sudah ada di detail_items.")
+            return 0
+        for link in missing_links:
+            print(link)
         return 0
 
     parser.error("Unknown command")

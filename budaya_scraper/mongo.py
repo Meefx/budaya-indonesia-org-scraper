@@ -63,3 +63,22 @@ class MongoRepository:
             if match:
                 pages.add(int(match.group(1)))
         return pages
+
+    def get_missing_detail_links(self) -> list[str]:
+        list_urls = {
+            document["detail_url"]
+            for document in self.list_collection.find(
+                {"detail_url": {"$type": "string"}},
+                {"detail_url": 1, "_id": 0},
+            )
+            if document.get("detail_url")
+        }
+        detail_urls = {
+            document["url"]
+            for document in self.detail_collection.find(
+                {"url": {"$type": "string"}},
+                {"url": 1, "_id": 0},
+            )
+            if document.get("url")
+        }
+        return sorted(list_urls - detail_urls)
